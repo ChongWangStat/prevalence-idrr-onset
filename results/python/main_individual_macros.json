@@ -1,0 +1,15 @@
+{
+ "nIndSizes": "200, 1000 and 5000",
+ "nIndNsizes": "three",
+ "nIndRows": "1\\,344",
+ "nIndGmMax": "2.8",
+ "nIndGmMaxFrom": "1.8",
+ "nIndGmBeyond": "5.3",
+ "nIndCovMax": "1.6",
+ "nIndCovBeyond": "4.4",
+ "nIndSeRatioMin": "0.93",
+ "nIndSeRatioMax": "1.05",
+ "nIndTestBeyond": "4.6",
+ "nIndUndefMax": "0.5",
+ "nIndLargestZ": "3.7"
+}

@@ -1,0 +1,5 @@
+This is a simulated, not observed, survey.
+Expected population size 5000 per group, IDRR 2, durations exponential 108 vs 180 days.
+Bonferroni-adjusted 95% simultaneous envelope; null tipping delta = 0.01082984/day.
+Actual differential exit hazard = 0.00370370/day.
+A tipping delta is NOT a bound inferred from the prevalence survey.

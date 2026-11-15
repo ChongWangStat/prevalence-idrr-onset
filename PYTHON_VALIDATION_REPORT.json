@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "outputs": {
+    "main_summary_python": {
+      "rows": 2240,
+      "sha256": "1240b8c4a9f90f8bbf921398aa5bc8437a2c094908a2c2552af8b1ad4335808b"
+    },
+    "main_tests_python": {
+      "rows": 280,
+      "sha256": "fdb86577f17e04f6c818018526af43c7df8a8b5480c618f5ec0976ab88c11bc0"
+    },
+    "original_summary_python": {
+      "rows": 24,
+      "sha256": "a03b800978c75feec04ce28537030a3b6062d2f177e1285783db27e96e43a930"
+    },
+    "original_stationarity_python": {
+      "rows": 123,
+      "sha256": "531bb8c5f145c9ec0bb986ef3fef8f17d70a40d83e2c0e69f8b4eb4b32facab2"
+    },
+    "validation_python": {
+      "rows": 4,
+      "sha256": "22cac72828570f7bd7d160fa1e8e4217dcb9a2e0145a1515e6db9fbeb8d0f747"
+    },
+    "trajectories_python": {
+      "rows": 360,
+      "sha256": "100974e6f05c79e36749376cd4668d68e81c45d309a8c2a83d78712801b6eec2"
+    },
+    "immigration_python": {
+      "rows": 8,
+      "sha256": "965091d93b6b60546bdbe5f4b276b7556145654b5ddbedd05f92afc9ca4bc46e"
+    },
+    "growth_python": {
+      "rows": 20,
+      "sha256": "233dea2b8c03b5848869e45225c8efeadd9277c308e8d09da95fd06a01f6e817"
+    },
+    "changing_incidence_python": {
+      "rows": 35,
+      "sha256": "bc21a00dfccfd531e8bfc9424c5264141b95d8a14e211a35801a9355e3f0da61"
+    },
+    "interval_limits_python": {
+      "rows": 58,
+      "sha256": "4eb6125d1c4af3a833411269d75ac754ab0849169a3be2bd1274b99ff5da2f4d"
+    },
+    "interval_estimators_python": {
+      "rows": 234,
+      "sha256": "a56b4ddf50765ae4176e17c4d1c0a229b6746c92aa2dcf0fdb25b2a0bfdde794"
+    },
+    "interval_bounds_python": {
+      "rows": 780,
+      "sha256": "993ed8434f52771b51d615aa6132366d0ede9a93ab8a8721a03063cd0db2cb2c"
+    },
+    "colon_public_application": {
+      "rows": 15,
+      "sha256": "1c2ba221adf41d9e210aef54911761522cd1b3e2ebdddb069adce4a493eeb38e"
+    },
+    "colon_bounds": {
+      "rows": 3,
+      "sha256": "24f9f29bee4a1c1f71517329c19069a7b9e6dbe6b1de79e6f189c1c00e468608"
+    },
+    "colon_postrecurrence_km": {
+      "rows": 74,
+      "sha256": "c47ac06892feba9481e33c04034d5a4aeefda793ca6b68e7a9fdefc43f7623ee"
+    },
+    "nordcan_application": {
+      "rows": 4,
+      "sha256": "1b6f0bc51650face925751cfaffe17abb07cec84c29864eb4e29d4240eeb5af2"
+    },
+    "nordcan_age_stratified": {
+      "rows": 4,
+      "sha256": "7683e1a243a0853cd3b6462ec75ce3ee482a03d64dbb0c673473089ac86f04dd"
+    },
+    "main_individual_summary": {
+      "rows": 1344,
+      "sha256": "8f2e86f7cf6fc8bb7e0c02cecfd9a2792062312788d5365fa16010fd7dd4c8ad"
+    },
+    "main_individual_tests": {
+      "rows": 168,
+      "sha256": "7b0132fe1d72f4d075ab06f583eb9134d25fcb4a7232a2786231d3360ba18ba0"
+    },
+    "main_individual_comparison": {
+      "rows": 1344,
+      "sha256": "b3cf9204dfe636253b2f47c28f47da2ef9626e08f561a3b2f1e2ece2c9af2164"
+    }
+  },
+  "main_estimator_rows": 2240,
+  "interval_bound_rows": 780,
+  "external_data_note": "Trial aggregates and bootstrap computed from the public colon file (not redistributed); registry series in data/ retrieved from NORDCAN 9.6.1"
+}

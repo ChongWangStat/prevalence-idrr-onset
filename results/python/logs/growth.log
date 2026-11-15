@@ -1,0 +1,4 @@
+growth done exponential 0.001 mean H1 3675.4 (expected 3676.5)
+growth done uniform 0.001 mean H1 3676.0 (expected 3676.5)
+growth done exponential 0.002 mean H1 3675.6 (expected 3676.5)
+growth done uniform 0.002 mean H1 3675.5 (expected 3676.5)

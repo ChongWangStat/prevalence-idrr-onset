@@ -1,0 +1,19 @@
+validation constant
+validation uniform
+validation exponential
+validation lognormal
+wrote validation 4
+trajectory constant
+trajectory uniform
+trajectory exponential
+trajectory lognormal
+wrote trajectories 360
+immigration 1.0 0.0
+immigration 1.0 0.25
+immigration 1.0 0.5
+immigration 1.0 1.0
+immigration 0.6 0.0
+immigration 0.6 0.25
+immigration 0.6 0.5
+immigration 0.6 1.0
+wrote immigration 8

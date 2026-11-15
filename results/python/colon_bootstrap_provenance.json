@@ -1,0 +1,12 @@
+{
+  "reps": 4000,
+  "seed": 20261112,
+  "source": "https://raw.githubusercontent.com/vincentarelbundock/Rdatasets/master/csv/survival/colon.csv",
+  "github_blob_sha1": "aa9f8ebcc4997da14d08a60fed0b32ec2996a9d8",
+  "full_raw_validated": true,
+  "rows": 1858,
+  "patients": 929,
+  "method": "stratified within randomized arm patient-level nonparametric percentile bootstrap of paired outcomes; positive finite ratios only; intervals suppressed when <95% of replicates defined",
+  "independent_data_claim": false,
+  "stationarity_claim": false
+}

@@ -1,0 +1,9 @@
+Stationary exact independent Poisson model; replicate seed per setting SHA256
+Base seed: 20261111
+Replicates per setting: 3000
+Windows in days: (30, 60, 90)
+Delta units: per day
+All intervals use conservative exact Bonferroni-Clopper-Pearson inversion.
+Single fixed w=60 uses alpha=.05. Bonferroni and intersection use alpha=.05/3 per w.
+In the delta=.001 setting with D1=108 and D0=180 days the envelope fails,
+because the differential hazard is 0.00370370 per day.

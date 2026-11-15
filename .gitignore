@@ -1,0 +1,21 @@
+# Local environments and derived downloads
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+cache/
+# Raw NORDCAN extracts regenerated from the public interface; do not redistribute pending confirmation
+data/nordcan_denmark_*.csv
+data/nordcan_denmark_*.json
+# Original patient-level trial file is never committed
+data/colon.csv
+colon.csv
+# Local manuscript build artifacts
+*.aux
+*.log
+*.out
+*.blg
+*.fls
+*.fdb_latexmk
