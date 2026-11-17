@@ -2,7 +2,7 @@
 
 Ying Zheng, Chong Wang, Annette O'Connor. S2 Code and Data of the article submitted to *PLOS ONE*.
 
-This archive contains the Python code, the input data, the recorded seeds and the stored outputs
+This repository contains the Python code, the derived input data, the recorded seeds and the stored outputs
 behind every number, table and figure of the article and of S1 Appendix, including the external BRFSS--USCS comparison. It does not contain the
 manuscript.
 
@@ -16,11 +16,15 @@ manuscript.
 | `results/python/` | stored output of every simulation and analysis (CSV, JSON); `logs/` holds screen output of earlier runs |
 | `results/simultaneous_windows/` | stored output of the several-windows simulation and of the worked example |
 | `tex/` | generated LaTeX: one body per table (`tab_*_body.tex`) and the numbers quoted in the text (`numbers.tex`, `numbers_app.tex`) |
-| `figures/` | the 13 figures as PDF, and the source of Fig 1 (`fig1_model.tex`) |
+| `figures/` | source for Figure 1; other figures are regenerated from scripts, while submission TIFFs are in the LaTeX package |
 | `DATA_SOURCES.md` | the public data sources and their terms |
 | `code/brfss_uscs/`, `results/brfss_uscs/` | independent survey--registry comparison scripts, plan, expected outputs; CDC raw records are downloaded separately |
 | `STORED_OUTPUTS_SHA256.txt` | checksums of the stored outputs, used by `check_against_stored.py` |
 | `PYTHON_VALIDATION_REPORT.json` | report of `code/python_validate_outputs.py` |
+
+## Coauthor access and complete rerun instructions
+
+For a step-by-step guide, including direct public-source download URLs, original-file checksums, and the differences between quick verification and the full seeded rerun, see **[COAUTHOR_REPRODUCIBILITY.md](COAUTHOR_REPRODUCIBILITY.md)**. The original large CDC archives are not hosted here; the code, derived data, and expected outputs are public. For the exact version corresponding to the manuscript, use the commit linked in its Data Availability statement.
 
 ## Requirements
 
@@ -67,7 +71,7 @@ Both scripts end with `check_against_stored.py`, which compares every output wit
 of the article and stops with an error if a numerical output differs. Every replicate has its own
 seed, so the results do not depend on the number of threads.
 
-## Which source files support the current v13 manuscript
+## Which source files support the current manuscript (v16)
 
 The published manuscript has been condensed. The additional full numerical tables and simulation grids remain in this archive as supporting reproducible outputs; **they are not necessarily numbered tables in the main text**. The complete 12-row estimator comparison table removed from the main text is retained in `documentation/archived_main_estimator_table.tex`.
 
@@ -94,7 +98,7 @@ The individual-history kernels are in `python_individual_histories.py`.
 - `python_falsify_propositions.py` looks for counterexamples to each proposition among duration
   distributions outside those of the simulation study.
 - `python_verify_theory.py`, `python_verify_exact_ci.py` and `python_check_interval.py` check
-  identities, the exact confidence limits (against SciPy) and the statements beside Proposition 7.
+  identities, the exact confidence limits (against SciPy) and the statements supporting the early-exit identification and sensitivity-bound proposition.
 - `python_validate_outputs.py` checks row counts, ranges and consistency of all outputs and writes
   `PYTHON_VALIDATION_REPORT.json`; `python_check_targeted_bootstrap.py` checks the trial bootstrap.
 - `check_against_stored.py` compares all outputs with `STORED_OUTPUTS_SHA256.txt`.
@@ -127,7 +131,7 @@ day. The stored result of this command is `results/simultaneous_windows/cli_appl
   the article comes from it.
 
 
-## External survey--registry comparison (Table 8; S1 Appendix)
+## External survey--registry comparison (main paper and S1 Appendix)
 
 The 2022 BRFSS survey was compared with 2022 USCS incidence counts. This is an external **comparison**, not an independent validation of the full theoretical model. The primary recent-onset definition uses the difference of zero completed years between respondent age and age at first diagnosis; the secondary definition uses differences of zero or one year. The latter is an approximation to a recent-onset window, not an observed diagnosis date.
 
