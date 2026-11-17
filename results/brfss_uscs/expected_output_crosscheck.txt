@@ -1,0 +1,23 @@
+records in the file: 445132
+records in the 22 states: 162026
+
+ages 20-79: never diagnosed M/F 50279/54720; recent (difference 0) M/F 232/248; recent (difference 0 or 1) M/F 616/662
+  POR                             0.73 (0.67, 0.79)   log estimate -0.31744, SE 0.0389
+  ROR, told since last birthday   0.92 (0.68, 1.26)   log estimate -0.08199, SE 0.1585
+  ROR, under two years            1.01 (0.81, 1.26)   log estimate +0.00915, SE 0.1140
+  ROR/POR, told since last birthday 1.27 (0.93, 1.72)   log estimate +0.23544, SE 0.1557
+  ROR/POR, under two years        1.39 (1.13, 1.70)   log estimate +0.32658, SE 0.1053
+
+ages 20-49: never diagnosed M/F 21585/21042; recent (difference 0) M/F 27/51; recent (difference 0 or 1) M/F 65/132
+  POR                             0.43 (0.35, 0.54)   log estimate -0.83697, SE 0.1088
+  ROR, told since last birthday   0.76 (0.33, 1.73)   log estimate -0.28043, SE 0.4225
+  ROR, under two years            0.52 (0.29, 0.91)   log estimate -0.65995, SE 0.2910
+  ROR/POR, told since last birthday 1.74 (0.80, 3.81)   log estimate +0.55654, SE 0.3988
+  ROR/POR, under two years        1.19 (0.72, 1.98)   log estimate +0.17703, SE 0.2587
+
+ages 50-79: never diagnosed M/F 28694/33678; recent (difference 0) M/F 205/197; recent (difference 0 or 1) M/F 551/530
+  POR                             0.85 (0.78, 0.92)   log estimate -0.16731, SE 0.0429
+  ROR, told since last birthday   1.04 (0.76, 1.44)   log estimate +0.04134, SE 0.1643
+  ROR, under two years            1.27 (1.00, 1.62)   log estimate +0.24190, SE 0.1226
+  ROR/POR, told since last birthday 1.23 (0.90, 1.69)   log estimate +0.20865, SE 0.1626
+  ROR/POR, under two years        1.51 (1.20, 1.88)   log estimate +0.40922, SE 0.1140

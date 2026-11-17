@@ -1,0 +1,11 @@
+{
+ "source": "NORDCAN 2.0, version 9.6.1 (09.11.2026), Association of the Nordic Cancer Registries, https://nordcan.iarc.fr/",
+ "api_base": "https://canapi.iarc.who.int/api/nordcan/v2/961",
+ "retrieved_utc": "2026-11-13T13:04:14Z",
+ "country": "Denmark (code 208)",
+ "note": "Counts of new cases and person-years by calendar year (incidence) and numbers of persons alive on 31 December 2024 by time since diagnosis (prevalence): nordcan_denmark_extract.csv. Age-specific values of 2024 for the same series (new cases, person-years, prevalence proportions; counts and year-end populations recovered from the proportions): nordcan_denmark_age.csv. One-year relative survival, 2020-2024: nordcan_denmark_survival.csv. Only the series used in the article are included.",
+ "rows": 120,
+ "age_rows": 864,
+ "survival_rows": 8,
+ "age_fields_retrieved_utc": "2026-11-13T15:42Z"
+}

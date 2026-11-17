@@ -1,0 +1,865 @@
+cancer_code,cancer,sex,measure,window_years,age_group,age,count,denominator,proportion_per_100000,endpoint
+160,Lung,M,incidence,,1,0-4,0,156723,,/data/population/0/1/(208)/(160)/
+160,Lung,M,incidence,,2,5-9,0,160699,,/data/population/0/1/(208)/(160)/
+160,Lung,M,incidence,,3,10-14,0,162366,,/data/population/0/1/(208)/(160)/
+160,Lung,M,incidence,,4,15-19,1,179648,,/data/population/0/1/(208)/(160)/
+160,Lung,M,incidence,,5,20-24,0,189916,,/data/population/0/1/(208)/(160)/
+160,Lung,M,incidence,,6,25-29,0,208330,,/data/population/0/1/(208)/(160)/
+160,Lung,M,incidence,,7,30-34,0,207831,,/data/population/0/1/(208)/(160)/
+160,Lung,M,incidence,,8,35-39,3,185457,,/data/population/0/1/(208)/(160)/
+160,Lung,M,incidence,,9,40-44,9,170183,,/data/population/0/1/(208)/(160)/
+160,Lung,M,incidence,,10,45-49,26,186466,,/data/population/0/1/(208)/(160)/
+160,Lung,M,incidence,,11,50-54,46,195523,,/data/population/0/1/(208)/(160)/
+160,Lung,M,incidence,,12,55-59,114,207225,,/data/population/0/1/(208)/(160)/
+160,Lung,M,incidence,,13,60-64,247,185736,,/data/population/0/1/(208)/(160)/
+160,Lung,M,incidence,,14,65-69,385,160425,,/data/population/0/1/(208)/(160)/
+160,Lung,M,incidence,,15,70-74,439,141356,,/data/population/0/1/(208)/(160)/
+160,Lung,M,incidence,,16,75-79,597,134962,,/data/population/0/1/(208)/(160)/
+160,Lung,M,incidence,,17,80-84,382,82952,,/data/population/0/1/(208)/(160)/
+160,Lung,M,incidence,,18,85+,160,53824,,/data/population/0/1/(208)/(160)/
+130,Pancreas,M,incidence,,1,0-4,0,156723,,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,incidence,,2,5-9,0,160699,,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,incidence,,3,10-14,0,162366,,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,incidence,,4,15-19,0,179648,,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,incidence,,5,20-24,0,189916,,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,incidence,,6,25-29,0,208330,,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,incidence,,7,30-34,1,207831,,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,incidence,,8,35-39,3,185457,,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,incidence,,9,40-44,5,170183,,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,incidence,,10,45-49,11,186466,,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,incidence,,11,50-54,32,195523,,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,incidence,,12,55-59,50,207225,,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,incidence,,13,60-64,69,185736,,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,incidence,,14,65-69,87,160425,,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,incidence,,15,70-74,104,141356,,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,incidence,,16,75-79,145,134962,,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,incidence,,17,80-84,73,82952,,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,incidence,,18,85+,50,53824,,/data/population/0/1/(208)/(130)/
+520,Colorectal,M,incidence,,1,0-4,0,156723,,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,incidence,,2,5-9,0,160699,,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,incidence,,3,10-14,2,162366,,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,incidence,,4,15-19,4,179648,,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,incidence,,5,20-24,3,189916,,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,incidence,,6,25-29,9,208330,,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,incidence,,7,30-34,14,207831,,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,incidence,,8,35-39,13,185457,,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,incidence,,9,40-44,36,170183,,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,incidence,,10,45-49,46,186466,,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,incidence,,11,50-54,111,195523,,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,incidence,,12,55-59,151,207225,,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,incidence,,13,60-64,222,185736,,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,incidence,,14,65-69,271,160425,,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,incidence,,15,70-74,369,141356,,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,incidence,,16,75-79,372,134962,,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,incidence,,17,80-84,369,82952,,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,incidence,,18,85+,253,53824,,/data/population/0/1/(208)/(520)/
+290,Melanoma of skin,M,incidence,,1,0-4,0,156723,,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,incidence,,2,5-9,0,160699,,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,incidence,,3,10-14,0,162366,,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,incidence,,4,15-19,0,179648,,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,incidence,,5,20-24,11,189916,,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,incidence,,6,25-29,14,208330,,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,incidence,,7,30-34,27,207831,,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,incidence,,8,35-39,28,185457,,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,incidence,,9,40-44,34,170183,,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,incidence,,10,45-49,68,186466,,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,incidence,,11,50-54,113,195523,,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,incidence,,12,55-59,139,207225,,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,incidence,,13,60-64,169,185736,,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,incidence,,14,65-69,153,160425,,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,incidence,,15,70-74,207,141356,,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,incidence,,16,75-79,278,134962,,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,incidence,,17,80-84,187,82952,,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,incidence,,18,85+,111,53824,,/data/population/0/1/(208)/(290)/
+160,Lung,M,prevalence,all,1,0-4,1,155965,0.6411694931555156,/prevalence/population/0/1/(208)/(160)/
+160,Lung,M,prevalence,all,2,5-9,2,161690,1.2369348753788114,/prevalence/population/0/1/(208)/(160)/
+160,Lung,M,prevalence,all,3,10-14,0,160656,0.0,/prevalence/population/0/1/(208)/(160)/
+160,Lung,M,prevalence,all,4,15-19,2,180095,1.1105250006940781,/prevalence/population/0/1/(208)/(160)/
+160,Lung,M,prevalence,all,5,20-24,1,190290,0.5255136896316149,/prevalence/population/0/1/(208)/(160)/
+160,Lung,M,prevalence,all,6,25-29,2,207752,0.9626862797951403,/prevalence/population/0/1/(208)/(160)/
+160,Lung,M,prevalence,all,7,30-34,7,209813,3.3363042328168415,/prevalence/population/0/1/(208)/(160)/
+160,Lung,M,prevalence,all,8,35-39,20,188693,10.599227316328639,/prevalence/population/0/1/(208)/(160)/
+160,Lung,M,prevalence,all,9,40-44,28,170042,16.466520036226346,/prevalence/population/0/1/(208)/(160)/
+160,Lung,M,prevalence,all,10,45-49,59,184393,31.996876237167353,/prevalence/population/0/1/(208)/(160)/
+160,Lung,M,prevalence,all,11,50-54,135,196199,68.80769015132594,/prevalence/population/0/1/(208)/(160)/
+160,Lung,M,prevalence,all,12,55-59,290,204593,141.74482997952032,/prevalence/population/0/1/(208)/(160)/
+160,Lung,M,prevalence,all,13,60-64,633,188720,335.4175498092412,/prevalence/population/0/1/(208)/(160)/
+160,Lung,M,prevalence,all,14,65-69,1003,161281,621.8959455856549,/prevalence/population/0/1/(208)/(160)/
+160,Lung,M,prevalence,all,15,70-74,1452,141385,1026.9830604378117,/prevalence/population/0/1/(208)/(160)/
+160,Lung,M,prevalence,all,16,75-79,1708,133892,1275.6550055268426,/prevalence/population/0/1/(208)/(160)/
+160,Lung,M,prevalence,all,17,80-84,1277,86176,1481.851095432603,/prevalence/population/0/1/(208)/(160)/
+160,Lung,M,prevalence,all,18,85+,607,55364,1096.3803193410881,/prevalence/population/0/1/(208)/(160)/
+160,Lung,M,prevalence,1,1,0-4,0,155965,0.0,/prevalence/population/1/1/(208)/(160)/
+160,Lung,M,prevalence,1,2,5-9,0,161690,0.0,/prevalence/population/1/1/(208)/(160)/
+160,Lung,M,prevalence,1,3,10-14,0,160656,0.0,/prevalence/population/1/1/(208)/(160)/
+160,Lung,M,prevalence,1,4,15-19,1,180095,0.5552625003470391,/prevalence/population/1/1/(208)/(160)/
+160,Lung,M,prevalence,1,5,20-24,0,190290,0.0,/prevalence/population/1/1/(208)/(160)/
+160,Lung,M,prevalence,1,6,25-29,0,207752,0.0,/prevalence/population/1/1/(208)/(160)/
+160,Lung,M,prevalence,1,7,30-34,0,209813,0.0,/prevalence/population/1/1/(208)/(160)/
+160,Lung,M,prevalence,1,8,35-39,2,188693,1.0599227316328639,/prevalence/population/1/1/(208)/(160)/
+160,Lung,M,prevalence,1,9,40-44,9,170042,5.292810011644182,/prevalence/population/1/1/(208)/(160)/
+160,Lung,M,prevalence,1,10,45-49,21,184393,11.388718660686685,/prevalence/population/1/1/(208)/(160)/
+160,Lung,M,prevalence,1,11,50-54,31,196199,15.800284405119292,/prevalence/population/1/1/(208)/(160)/
+160,Lung,M,prevalence,1,12,55-59,67,204593,32.74794347802711,/prevalence/population/1/1/(208)/(160)/
+160,Lung,M,prevalence,1,13,60-64,167,188720,88.49088596863078,/prevalence/population/1/1/(208)/(160)/
+160,Lung,M,prevalence,1,14,65-69,264,161281,163.6894612508603,/prevalence/population/1/1/(208)/(160)/
+160,Lung,M,prevalence,1,15,70-74,295,141385,208.6501396895003,/prevalence/population/1/1/(208)/(160)/
+160,Lung,M,prevalence,1,16,75-79,402,133892,300.24198607833176,/prevalence/population/1/1/(208)/(160)/
+160,Lung,M,prevalence,1,17,80-84,249,86176,288.94355737096174,/prevalence/population/1/1/(208)/(160)/
+160,Lung,M,prevalence,1,18,85+,84,55364,151.72314139151794,/prevalence/population/1/1/(208)/(160)/
+160,Lung,M,prevalence,3,1,0-4,0,155965,0.0,/prevalence/population/3/1/(208)/(160)/
+160,Lung,M,prevalence,3,2,5-9,1,161690,0.6184674376894057,/prevalence/population/3/1/(208)/(160)/
+160,Lung,M,prevalence,3,3,10-14,0,160656,0.0,/prevalence/population/3/1/(208)/(160)/
+160,Lung,M,prevalence,3,4,15-19,1,180095,0.5552625003470391,/prevalence/population/3/1/(208)/(160)/
+160,Lung,M,prevalence,3,5,20-24,0,190290,0.0,/prevalence/population/3/1/(208)/(160)/
+160,Lung,M,prevalence,3,6,25-29,0,207752,0.0,/prevalence/population/3/1/(208)/(160)/
+160,Lung,M,prevalence,3,7,30-34,1,209813,0.47661489040240596,/prevalence/population/3/1/(208)/(160)/
+160,Lung,M,prevalence,3,8,35-39,8,188693,4.2396909265314555,/prevalence/population/3/1/(208)/(160)/
+160,Lung,M,prevalence,3,9,40-44,17,170042,9.997530021994566,/prevalence/population/3/1/(208)/(160)/
+160,Lung,M,prevalence,3,10,45-49,36,184393,19.52351770403432,/prevalence/population/3/1/(208)/(160)/
+160,Lung,M,prevalence,3,11,50-54,68,196199,34.65868837251974,/prevalence/population/3/1/(208)/(160)/
+160,Lung,M,prevalence,3,12,55-59,130,204593,63.54078585288842,/prevalence/population/3/1/(208)/(160)/
+160,Lung,M,prevalence,3,13,60-64,347,188720,183.87028401865197,/prevalence/population/3/1/(208)/(160)/
+160,Lung,M,prevalence,3,14,65-69,527,161281,326.75888666364915,/prevalence/population/3/1/(208)/(160)/
+160,Lung,M,prevalence,3,15,70-74,718,141385,507.83322134597023,/prevalence/population/3/1/(208)/(160)/
+160,Lung,M,prevalence,3,16,75-79,849,133892,634.0931497027454,/prevalence/population/3/1/(208)/(160)/
+160,Lung,M,prevalence,3,17,80-84,566,86176,656.7953954697364,/prevalence/population/3/1/(208)/(160)/
+160,Lung,M,prevalence,3,18,85+,211,55364,381.11408135250343,/prevalence/population/3/1/(208)/(160)/
+160,Lung,M,prevalence,5,1,0-4,1,155965,0.6411694931555156,/prevalence/population/5/1/(208)/(160)/
+160,Lung,M,prevalence,5,2,5-9,1,161690,0.6184674376894057,/prevalence/population/5/1/(208)/(160)/
+160,Lung,M,prevalence,5,3,10-14,0,160656,0.0,/prevalence/population/5/1/(208)/(160)/
+160,Lung,M,prevalence,5,4,15-19,1,180095,0.5552625003470391,/prevalence/population/5/1/(208)/(160)/
+160,Lung,M,prevalence,5,5,20-24,1,190290,0.5255136896316149,/prevalence/population/5/1/(208)/(160)/
+160,Lung,M,prevalence,5,6,25-29,0,207752,0.0,/prevalence/population/5/1/(208)/(160)/
+160,Lung,M,prevalence,5,7,30-34,2,209813,0.9532297808048119,/prevalence/population/5/1/(208)/(160)/
+160,Lung,M,prevalence,5,8,35-39,12,188693,6.359536389797184,/prevalence/population/5/1/(208)/(160)/
+160,Lung,M,prevalence,5,9,40-44,19,170042,11.173710024582162,/prevalence/population/5/1/(208)/(160)/
+160,Lung,M,prevalence,5,10,45-49,44,184393,23.862077193819722,/prevalence/population/5/1/(208)/(160)/
+160,Lung,M,prevalence,5,11,50-54,89,196199,45.36210684050378,/prevalence/population/5/1/(208)/(160)/
+160,Lung,M,prevalence,5,12,55-59,182,204593,88.95710019404379,/prevalence/population/5/1/(208)/(160)/
+160,Lung,M,prevalence,5,13,60-64,450,188720,238.448495125053,/prevalence/population/5/1/(208)/(160)/
+160,Lung,M,prevalence,5,14,65-69,705,161281,437.12526584036556,/prevalence/population/5/1/(208)/(160)/
+160,Lung,M,prevalence,5,15,70-74,963,141385,681.118930579623,/prevalence/population/5/1/(208)/(160)/
+160,Lung,M,prevalence,5,16,75-79,1119,133892,835.748214979237,/prevalence/population/5/1/(208)/(160)/
+160,Lung,M,prevalence,5,17,80-84,769,86176,892.3598217601188,/prevalence/population/5/1/(208)/(160)/
+160,Lung,M,prevalence,5,18,85+,310,55364,559.9306408496495,/prevalence/population/5/1/(208)/(160)/
+160,Lung,M,prevalence,10,1,0-4,1,155965,0.6411694931555156,/prevalence/population/10/1/(208)/(160)/
+160,Lung,M,prevalence,10,2,5-9,2,161690,1.2369348753788114,/prevalence/population/10/1/(208)/(160)/
+160,Lung,M,prevalence,10,3,10-14,0,160656,0.0,/prevalence/population/10/1/(208)/(160)/
+160,Lung,M,prevalence,10,4,15-19,2,180095,1.1105250006940781,/prevalence/population/10/1/(208)/(160)/
+160,Lung,M,prevalence,10,5,20-24,1,190290,0.5255136896316149,/prevalence/population/10/1/(208)/(160)/
+160,Lung,M,prevalence,10,6,25-29,2,207752,0.9626862797951403,/prevalence/population/10/1/(208)/(160)/
+160,Lung,M,prevalence,10,7,30-34,4,209813,1.9064595616096238,/prevalence/population/10/1/(208)/(160)/
+160,Lung,M,prevalence,10,8,35-39,16,188693,8.479381853062911,/prevalence/population/10/1/(208)/(160)/
+160,Lung,M,prevalence,10,9,40-44,25,170042,14.70225003234495,/prevalence/population/10/1/(208)/(160)/
+160,Lung,M,prevalence,10,10,45-49,53,184393,28.742956619828302,/prevalence/population/10/1/(208)/(160)/
+160,Lung,M,prevalence,10,11,50-54,112,196199,57.084898495914864,/prevalence/population/10/1/(208)/(160)/
+160,Lung,M,prevalence,10,12,55-59,253,204593,123.66014477523669,/prevalence/population/10/1/(208)/(160)/
+160,Lung,M,prevalence,10,13,60-64,577,188720,305.74395930479017,/prevalence/population/10/1/(208)/(160)/
+160,Lung,M,prevalence,10,14,65-69,893,161281,553.6920033977964,/prevalence/population/10/1/(208)/(160)/
+160,Lung,M,prevalence,10,15,70-74,1268,141385,896.8419563602928,/prevalence/population/10/1/(208)/(160)/
+160,Lung,M,prevalence,10,16,75-79,1509,133892,1127.0277537119468,/prevalence/population/10/1/(208)/(160)/
+160,Lung,M,prevalence,10,17,80-84,1066,86176,1237.003341997772,/prevalence/population/10/1/(208)/(160)/
+160,Lung,M,prevalence,10,18,85+,476,55364,859.7644678852685,/prevalence/population/10/1/(208)/(160)/
+130,Pancreas,M,prevalence,all,1,0-4,0,155965,0.0,/prevalence/population/0/1/(208)/(130)/
+130,Pancreas,M,prevalence,all,2,5-9,0,161690,0.0,/prevalence/population/0/1/(208)/(130)/
+130,Pancreas,M,prevalence,all,3,10-14,1,160656,0.6224479633502639,/prevalence/population/0/1/(208)/(130)/
+130,Pancreas,M,prevalence,all,4,15-19,2,180095,1.1105250006940781,/prevalence/population/0/1/(208)/(130)/
+130,Pancreas,M,prevalence,all,5,20-24,0,190290,0.0,/prevalence/population/0/1/(208)/(130)/
+130,Pancreas,M,prevalence,all,6,25-29,1,207752,0.48134313989757016,/prevalence/population/0/1/(208)/(130)/
+130,Pancreas,M,prevalence,all,7,30-34,6,209813,2.859689342414436,/prevalence/population/0/1/(208)/(130)/
+130,Pancreas,M,prevalence,all,8,35-39,10,188693,5.299613658164319,/prevalence/population/0/1/(208)/(130)/
+130,Pancreas,M,prevalence,all,9,40-44,15,170042,8.82135001940697,/prevalence/population/0/1/(208)/(130)/
+130,Pancreas,M,prevalence,all,10,45-49,34,184393,18.438877831587966,/prevalence/population/0/1/(208)/(130)/
+130,Pancreas,M,prevalence,all,11,50-54,63,196199,32.11025540395211,/prevalence/population/0/1/(208)/(130)/
+130,Pancreas,M,prevalence,all,12,55-59,90,204593,43.98977482123044,/prevalence/population/0/1/(208)/(130)/
+130,Pancreas,M,prevalence,all,13,60-64,152,188720,80.54260279779568,/prevalence/population/0/1/(208)/(130)/
+130,Pancreas,M,prevalence,all,14,65-69,167,161281,103.54598495793057,/prevalence/population/0/1/(208)/(130)/
+130,Pancreas,M,prevalence,all,15,70-74,163,141385,115.28804328606287,/prevalence/population/0/1/(208)/(130)/
+130,Pancreas,M,prevalence,all,16,75-79,219,133892,163.56466405759866,/prevalence/population/0/1/(208)/(130)/
+130,Pancreas,M,prevalence,all,17,80-84,117,86176,135.76865948756034,/prevalence/population/0/1/(208)/(130)/
+130,Pancreas,M,prevalence,all,18,85+,41,55364,74.05534282205043,/prevalence/population/0/1/(208)/(130)/
+130,Pancreas,M,prevalence,1,1,0-4,0,155965,0.0,/prevalence/population/1/1/(208)/(130)/
+130,Pancreas,M,prevalence,1,2,5-9,0,161690,0.0,/prevalence/population/1/1/(208)/(130)/
+130,Pancreas,M,prevalence,1,3,10-14,0,160656,0.0,/prevalence/population/1/1/(208)/(130)/
+130,Pancreas,M,prevalence,1,4,15-19,0,180095,0.0,/prevalence/population/1/1/(208)/(130)/
+130,Pancreas,M,prevalence,1,5,20-24,0,190290,0.0,/prevalence/population/1/1/(208)/(130)/
+130,Pancreas,M,prevalence,1,6,25-29,0,207752,0.0,/prevalence/population/1/1/(208)/(130)/
+130,Pancreas,M,prevalence,1,7,30-34,0,209813,0.0,/prevalence/population/1/1/(208)/(130)/
+130,Pancreas,M,prevalence,1,8,35-39,3,188693,1.589884097449296,/prevalence/population/1/1/(208)/(130)/
+130,Pancreas,M,prevalence,1,9,40-44,2,170042,1.176180002587596,/prevalence/population/1/1/(208)/(130)/
+130,Pancreas,M,prevalence,1,10,45-49,9,184393,4.88087942600858,/prevalence/population/1/1/(208)/(130)/
+130,Pancreas,M,prevalence,1,11,50-54,23,196199,11.722791655411088,/prevalence/population/1/1/(208)/(130)/
+130,Pancreas,M,prevalence,1,12,55-59,28,204593,13.685707722160583,/prevalence/population/1/1/(208)/(130)/
+130,Pancreas,M,prevalence,1,13,60-64,54,188720,28.613819415006358,/prevalence/population/1/1/(208)/(130)/
+130,Pancreas,M,prevalence,1,14,65-69,55,161281,34.10197109392923,/prevalence/population/1/1/(208)/(130)/
+130,Pancreas,M,prevalence,1,15,70-74,54,141385,38.19358489231531,/prevalence/population/1/1/(208)/(130)/
+130,Pancreas,M,prevalence,1,16,75-79,70,133892,52.28094284946076,/prevalence/population/1/1/(208)/(130)/
+130,Pancreas,M,prevalence,1,17,80-84,26,86176,30.170813219457855,/prevalence/population/1/1/(208)/(130)/
+130,Pancreas,M,prevalence,1,18,85+,8,55364,14.449822989668377,/prevalence/population/1/1/(208)/(130)/
+130,Pancreas,M,prevalence,3,1,0-4,0,155965,0.0,/prevalence/population/3/1/(208)/(130)/
+130,Pancreas,M,prevalence,3,2,5-9,0,161690,0.0,/prevalence/population/3/1/(208)/(130)/
+130,Pancreas,M,prevalence,3,3,10-14,1,160656,0.6224479633502639,/prevalence/population/3/1/(208)/(130)/
+130,Pancreas,M,prevalence,3,4,15-19,1,180095,0.5552625003470391,/prevalence/population/3/1/(208)/(130)/
+130,Pancreas,M,prevalence,3,5,20-24,0,190290,0.0,/prevalence/population/3/1/(208)/(130)/
+130,Pancreas,M,prevalence,3,6,25-29,0,207752,0.0,/prevalence/population/3/1/(208)/(130)/
+130,Pancreas,M,prevalence,3,7,30-34,4,209813,1.9064595616096238,/prevalence/population/3/1/(208)/(130)/
+130,Pancreas,M,prevalence,3,8,35-39,5,188693,2.6498068290821597,/prevalence/population/3/1/(208)/(130)/
+130,Pancreas,M,prevalence,3,9,40-44,7,170042,4.116630009056586,/prevalence/population/3/1/(208)/(130)/
+130,Pancreas,M,prevalence,3,10,45-49,21,184393,11.388718660686685,/prevalence/population/3/1/(208)/(130)/
+130,Pancreas,M,prevalence,3,11,50-54,44,196199,22.426210123395123,/prevalence/population/3/1/(208)/(130)/
+130,Pancreas,M,prevalence,3,12,55-59,57,204593,27.860190720112612,/prevalence/population/3/1/(208)/(130)/
+130,Pancreas,M,prevalence,3,13,60-64,85,188720,45.040271301398896,/prevalence/population/3/1/(208)/(130)/
+130,Pancreas,M,prevalence,3,14,65-69,110,161281,68.20394218785846,/prevalence/population/3/1/(208)/(130)/
+130,Pancreas,M,prevalence,3,15,70-74,89,141385,62.948686211408564,/prevalence/population/3/1/(208)/(130)/
+130,Pancreas,M,prevalence,3,16,75-79,117,133892,87.38386161981299,/prevalence/population/3/1/(208)/(130)/
+130,Pancreas,M,prevalence,3,17,80-84,50,86176,58.020794652803566,/prevalence/population/3/1/(208)/(130)/
+130,Pancreas,M,prevalence,3,18,85+,13,55364,23.480962358211112,/prevalence/population/3/1/(208)/(130)/
+130,Pancreas,M,prevalence,5,1,0-4,0,155965,0.0,/prevalence/population/5/1/(208)/(130)/
+130,Pancreas,M,prevalence,5,2,5-9,0,161690,0.0,/prevalence/population/5/1/(208)/(130)/
+130,Pancreas,M,prevalence,5,3,10-14,1,160656,0.6224479633502639,/prevalence/population/5/1/(208)/(130)/
+130,Pancreas,M,prevalence,5,4,15-19,1,180095,0.5552625003470391,/prevalence/population/5/1/(208)/(130)/
+130,Pancreas,M,prevalence,5,5,20-24,0,190290,0.0,/prevalence/population/5/1/(208)/(130)/
+130,Pancreas,M,prevalence,5,6,25-29,1,207752,0.48134313989757016,/prevalence/population/5/1/(208)/(130)/
+130,Pancreas,M,prevalence,5,7,30-34,4,209813,1.9064595616096238,/prevalence/population/5/1/(208)/(130)/
+130,Pancreas,M,prevalence,5,8,35-39,6,188693,3.179768194898592,/prevalence/population/5/1/(208)/(130)/
+130,Pancreas,M,prevalence,5,9,40-44,8,170042,4.704720010350384,/prevalence/population/5/1/(208)/(130)/
+130,Pancreas,M,prevalence,5,10,45-49,26,184393,14.100318341802563,/prevalence/population/5/1/(208)/(130)/
+130,Pancreas,M,prevalence,5,11,50-54,51,196199,25.994016279389804,/prevalence/population/5/1/(208)/(130)/
+130,Pancreas,M,prevalence,5,12,55-59,65,204593,31.77039292644421,/prevalence/population/5/1/(208)/(130)/
+130,Pancreas,M,prevalence,5,13,60-64,109,188720,57.757524374735056,/prevalence/population/5/1/(208)/(130)/
+130,Pancreas,M,prevalence,5,14,65-69,132,161281,81.84473062543015,/prevalence/population/5/1/(208)/(130)/
+130,Pancreas,M,prevalence,5,15,70-74,118,141385,83.46005587580012,/prevalence/population/5/1/(208)/(130)/
+130,Pancreas,M,prevalence,5,16,75-79,149,133892,111.2837212081379,/prevalence/population/5/1/(208)/(130)/
+130,Pancreas,M,prevalence,5,17,80-84,70,86176,81.22911251392499,/prevalence/population/5/1/(208)/(130)/
+130,Pancreas,M,prevalence,5,18,85+,20,55364,36.12455747417094,/prevalence/population/5/1/(208)/(130)/
+130,Pancreas,M,prevalence,10,1,0-4,0,155965,0.0,/prevalence/population/10/1/(208)/(130)/
+130,Pancreas,M,prevalence,10,2,5-9,0,161690,0.0,/prevalence/population/10/1/(208)/(130)/
+130,Pancreas,M,prevalence,10,3,10-14,1,160656,0.6224479633502639,/prevalence/population/10/1/(208)/(130)/
+130,Pancreas,M,prevalence,10,4,15-19,2,180095,1.1105250006940781,/prevalence/population/10/1/(208)/(130)/
+130,Pancreas,M,prevalence,10,5,20-24,0,190290,0.0,/prevalence/population/10/1/(208)/(130)/
+130,Pancreas,M,prevalence,10,6,25-29,1,207752,0.48134313989757016,/prevalence/population/10/1/(208)/(130)/
+130,Pancreas,M,prevalence,10,7,30-34,6,209813,2.859689342414436,/prevalence/population/10/1/(208)/(130)/
+130,Pancreas,M,prevalence,10,8,35-39,7,188693,3.709729560715024,/prevalence/population/10/1/(208)/(130)/
+130,Pancreas,M,prevalence,10,9,40-44,15,170042,8.82135001940697,/prevalence/population/10/1/(208)/(130)/
+130,Pancreas,M,prevalence,10,10,45-49,32,184393,17.354237959141617,/prevalence/population/10/1/(208)/(130)/
+130,Pancreas,M,prevalence,10,11,50-54,60,196199,30.581195622811535,/prevalence/population/10/1/(208)/(130)/
+130,Pancreas,M,prevalence,10,12,55-59,81,204593,39.5907973391074,/prevalence/population/10/1/(208)/(130)/
+130,Pancreas,M,prevalence,10,13,60-64,139,188720,73.65409071640525,/prevalence/population/10/1/(208)/(130)/
+130,Pancreas,M,prevalence,10,14,65-69,147,161281,91.14526819650176,/prevalence/population/10/1/(208)/(130)/
+130,Pancreas,M,prevalence,10,15,70-74,150,141385,106.09329136754252,/prevalence/population/10/1/(208)/(130)/
+130,Pancreas,M,prevalence,10,16,75-79,189,133892,141.15854569354406,/prevalence/population/10/1/(208)/(130)/
+130,Pancreas,M,prevalence,10,17,80-84,91,86176,105.59784626810249,/prevalence/population/10/1/(208)/(130)/
+130,Pancreas,M,prevalence,10,18,85+,29,55364,52.38060833754786,/prevalence/population/10/1/(208)/(130)/
+520,Colorectal,M,prevalence,all,1,0-4,0,155965,0.0,/prevalence/population/0/1/(208)/(520)/
+520,Colorectal,M,prevalence,all,2,5-9,0,161690,0.0,/prevalence/population/0/1/(208)/(520)/
+520,Colorectal,M,prevalence,all,3,10-14,6,160656,3.7346877801015834,/prevalence/population/0/1/(208)/(520)/
+520,Colorectal,M,prevalence,all,4,15-19,15,180095,8.328937505205586,/prevalence/population/0/1/(208)/(520)/
+520,Colorectal,M,prevalence,all,5,20-24,26,190290,13.663355930421988,/prevalence/population/0/1/(208)/(520)/
+520,Colorectal,M,prevalence,all,6,25-29,33,207752,15.884323616619817,/prevalence/population/0/1/(208)/(520)/
+520,Colorectal,M,prevalence,all,7,30-34,74,209813,35.26950188977804,/prevalence/population/0/1/(208)/(520)/
+520,Colorectal,M,prevalence,all,8,35-39,105,188693,55.64594341072536,/prevalence/population/0/1/(208)/(520)/
+520,Colorectal,M,prevalence,all,9,40-44,163,170042,95.85867021088907,/prevalence/population/0/1/(208)/(520)/
+520,Colorectal,M,prevalence,all,10,45-49,257,184393,139.37622360935612,/prevalence/population/0/1/(208)/(520)/
+520,Colorectal,M,prevalence,all,11,50-54,571,196199,291.0310450104231,/prevalence/population/0/1/(208)/(520)/
+520,Colorectal,M,prevalence,all,12,55-59,1063,204593,519.5681181663107,/prevalence/population/0/1/(208)/(520)/
+520,Colorectal,M,prevalence,all,13,60-64,1656,188720,877.490462060195,/prevalence/population/0/1/(208)/(520)/
+520,Colorectal,M,prevalence,all,14,65-69,2434,161281,1509.1672298658862,/prevalence/population/0/1/(208)/(520)/
+520,Colorectal,M,prevalence,all,15,70-74,3524,141385,2492.4850585281324,/prevalence/population/0/1/(208)/(520)/
+520,Colorectal,M,prevalence,all,16,75-79,4784,133892,3573.0290084545754,/prevalence/population/0/1/(208)/(520)/
+520,Colorectal,M,prevalence,all,17,80-84,4201,86176,4874.907166728555,/prevalence/population/0/1/(208)/(520)/
+520,Colorectal,M,prevalence,all,18,85+,3453,55364,6236.904847915613,/prevalence/population/0/1/(208)/(520)/
+520,Colorectal,M,prevalence,1,1,0-4,0,155965,0.0,/prevalence/population/1/1/(208)/(520)/
+520,Colorectal,M,prevalence,1,2,5-9,0,161690,0.0,/prevalence/population/1/1/(208)/(520)/
+520,Colorectal,M,prevalence,1,3,10-14,1,160656,0.6224479633502639,/prevalence/population/1/1/(208)/(520)/
+520,Colorectal,M,prevalence,1,4,15-19,4,180095,2.2210500013881562,/prevalence/population/1/1/(208)/(520)/
+520,Colorectal,M,prevalence,1,5,20-24,4,190290,2.1020547585264597,/prevalence/population/1/1/(208)/(520)/
+520,Colorectal,M,prevalence,1,6,25-29,8,207752,3.8507451191805613,/prevalence/population/1/1/(208)/(520)/
+520,Colorectal,M,prevalence,1,7,30-34,13,209813,6.195993575231277,/prevalence/population/1/1/(208)/(520)/
+520,Colorectal,M,prevalence,1,8,35-39,12,188693,6.359536389797184,/prevalence/population/1/1/(208)/(520)/
+520,Colorectal,M,prevalence,1,9,40-44,31,170042,18.23079004010774,/prevalence/population/1/1/(208)/(520)/
+520,Colorectal,M,prevalence,1,10,45-49,43,184393,23.319757257596546,/prevalence/population/1/1/(208)/(520)/
+520,Colorectal,M,prevalence,1,11,50-54,103,196199,52.49771915249313,/prevalence/population/1/1/(208)/(520)/
+520,Colorectal,M,prevalence,1,12,55-59,131,204593,64.02956112867987,/prevalence/population/1/1/(208)/(520)/
+520,Colorectal,M,prevalence,1,13,60-64,193,188720,102.26791013141161,/prevalence/population/1/1/(208)/(520)/
+520,Colorectal,M,prevalence,1,14,65-69,244,161281,151.28874448943148,/prevalence/population/1/1/(208)/(520)/
+520,Colorectal,M,prevalence,1,15,70-74,322,141385,227.74693213565794,/prevalence/population/1/1/(208)/(520)/
+520,Colorectal,M,prevalence,1,16,75-79,309,133892,230.78301914976248,/prevalence/population/1/1/(208)/(520)/
+520,Colorectal,M,prevalence,1,17,80-84,304,86176,352.76643148904566,/prevalence/population/1/1/(208)/(520)/
+520,Colorectal,M,prevalence,1,18,85+,200,55364,361.2455747417094,/prevalence/population/1/1/(208)/(520)/
+520,Colorectal,M,prevalence,3,1,0-4,0,155965,0.0,/prevalence/population/3/1/(208)/(520)/
+520,Colorectal,M,prevalence,3,2,5-9,0,161690,0.0,/prevalence/population/3/1/(208)/(520)/
+520,Colorectal,M,prevalence,3,3,10-14,3,160656,1.8673438900507917,/prevalence/population/3/1/(208)/(520)/
+520,Colorectal,M,prevalence,3,4,15-19,10,180095,5.552625003470391,/prevalence/population/3/1/(208)/(520)/
+520,Colorectal,M,prevalence,3,5,20-24,12,190290,6.306164275579379,/prevalence/population/3/1/(208)/(520)/
+520,Colorectal,M,prevalence,3,6,25-29,14,207752,6.738803958565983,/prevalence/population/3/1/(208)/(520)/
+520,Colorectal,M,prevalence,3,7,30-34,33,209813,15.728291383279396,/prevalence/population/3/1/(208)/(520)/
+520,Colorectal,M,prevalence,3,8,35-39,36,188693,19.07860916939155,/prevalence/population/3/1/(208)/(520)/
+520,Colorectal,M,prevalence,3,9,40-44,71,170042,41.754390091859655,/prevalence/population/3/1/(208)/(520)/
+520,Colorectal,M,prevalence,3,10,45-49,120,184393,65.07839234678106,/prevalence/population/3/1/(208)/(520)/
+520,Colorectal,M,prevalence,3,11,50-54,267,196199,136.0863205215113,/prevalence/population/3/1/(208)/(520)/
+520,Colorectal,M,prevalence,3,12,55-59,359,204593,175.4703240091303,/prevalence/population/3/1/(208)/(520)/
+520,Colorectal,M,prevalence,3,13,60-64,537,188720,284.54853751589656,/prevalence/population/3/1/(208)/(520)/
+520,Colorectal,M,prevalence,3,14,65-69,653,161281,404.88340226065066,/prevalence/population/3/1/(208)/(520)/
+520,Colorectal,M,prevalence,3,15,70-74,855,141385,604.7317607949924,/prevalence/population/3/1/(208)/(520)/
+520,Colorectal,M,prevalence,3,16,75-79,882,133892,658.7398799032055,/prevalence/population/3/1/(208)/(520)/
+520,Colorectal,M,prevalence,3,17,80-84,780,86176,905.1243965837356,/prevalence/population/3/1/(208)/(520)/
+520,Colorectal,M,prevalence,3,18,85+,551,55364,995.2315584134094,/prevalence/population/3/1/(208)/(520)/
+520,Colorectal,M,prevalence,5,1,0-4,0,155965,0.0,/prevalence/population/5/1/(208)/(520)/
+520,Colorectal,M,prevalence,5,2,5-9,0,161690,0.0,/prevalence/population/5/1/(208)/(520)/
+520,Colorectal,M,prevalence,5,3,10-14,5,160656,3.1122398167513197,/prevalence/population/5/1/(208)/(520)/
+520,Colorectal,M,prevalence,5,4,15-19,13,180095,7.218412504511508,/prevalence/population/5/1/(208)/(520)/
+520,Colorectal,M,prevalence,5,5,20-24,21,190290,11.035787482263913,/prevalence/population/5/1/(208)/(520)/
+520,Colorectal,M,prevalence,5,6,25-29,24,207752,11.552235357541685,/prevalence/population/5/1/(208)/(520)/
+520,Colorectal,M,prevalence,5,7,30-34,47,209813,22.40089984891308,/prevalence/population/5/1/(208)/(520)/
+520,Colorectal,M,prevalence,5,8,35-39,64,188693,33.917527412251644,/prevalence/population/5/1/(208)/(520)/
+520,Colorectal,M,prevalence,5,9,40-44,106,170042,62.33754013714259,/prevalence/population/5/1/(208)/(520)/
+520,Colorectal,M,prevalence,5,10,45-49,161,184393,87.31350973193126,/prevalence/population/5/1/(208)/(520)/
+520,Colorectal,M,prevalence,5,11,50-54,371,196199,189.09372626771798,/prevalence/population/5/1/(208)/(520)/
+520,Colorectal,M,prevalence,5,12,55-59,524,204593,256.1182445147195,/prevalence/population/5/1/(208)/(520)/
+520,Colorectal,M,prevalence,5,13,60-64,781,188720,413.8406104281475,/prevalence/population/5/1/(208)/(520)/
+520,Colorectal,M,prevalence,5,14,65-69,1052,161281,652.2777016511554,/prevalence/population/5/1/(208)/(520)/
+520,Colorectal,M,prevalence,5,15,70-74,1313,141385,928.6699437705556,/prevalence/population/5/1/(208)/(520)/
+520,Colorectal,M,prevalence,5,16,75-79,1430,133892,1068.0249753532698,/prevalence/population/5/1/(208)/(520)/
+520,Colorectal,M,prevalence,5,17,80-84,1190,86176,1380.8949127367248,/prevalence/population/5/1/(208)/(520)/
+520,Colorectal,M,prevalence,5,18,85+,907,55364,1638.2486814536521,/prevalence/population/5/1/(208)/(520)/
+520,Colorectal,M,prevalence,10,1,0-4,0,155965,0.0,/prevalence/population/10/1/(208)/(520)/
+520,Colorectal,M,prevalence,10,2,5-9,0,161690,0.0,/prevalence/population/10/1/(208)/(520)/
+520,Colorectal,M,prevalence,10,3,10-14,6,160656,3.7346877801015834,/prevalence/population/10/1/(208)/(520)/
+520,Colorectal,M,prevalence,10,4,15-19,15,180095,8.328937505205586,/prevalence/population/10/1/(208)/(520)/
+520,Colorectal,M,prevalence,10,5,20-24,26,190290,13.663355930421988,/prevalence/population/10/1/(208)/(520)/
+520,Colorectal,M,prevalence,10,6,25-29,30,207752,14.440294196927105,/prevalence/population/10/1/(208)/(520)/
+520,Colorectal,M,prevalence,10,7,30-34,65,209813,30.979967876156387,/prevalence/population/10/1/(208)/(520)/
+520,Colorectal,M,prevalence,10,8,35-39,92,188693,48.75644565511174,/prevalence/population/10/1/(208)/(520)/
+520,Colorectal,M,prevalence,10,9,40-44,146,170042,85.86114018889451,/prevalence/population/10/1/(208)/(520)/
+520,Colorectal,M,prevalence,10,10,45-49,215,184393,116.59878628798273,/prevalence/population/10/1/(208)/(520)/
+520,Colorectal,M,prevalence,10,11,50-54,492,196199,250.76580410705458,/prevalence/population/10/1/(208)/(520)/
+520,Colorectal,M,prevalence,10,12,55-59,849,204593,414.97020914694053,/prevalence/population/10/1/(208)/(520)/
+520,Colorectal,M,prevalence,10,13,60-64,1275,188720,675.6040695209834,/prevalence/population/10/1/(208)/(520)/
+520,Colorectal,M,prevalence,10,14,65-69,1808,161281,1121.0247952331645,/prevalence/population/10/1/(208)/(520)/
+520,Colorectal,M,prevalence,10,15,70-74,2520,141385,1782.3672949747145,/prevalence/population/10/1/(208)/(520)/
+520,Colorectal,M,prevalence,10,16,75-79,3108,133892,2321.2738625160578,/prevalence/population/10/1/(208)/(520)/
+520,Colorectal,M,prevalence,10,17,80-84,2517,86176,2920.7668028221315,/prevalence/population/10/1/(208)/(520)/
+520,Colorectal,M,prevalence,10,18,85+,1719,55364,3104.9057149049922,/prevalence/population/10/1/(208)/(520)/
+290,Melanoma of skin,M,prevalence,all,1,0-4,0,155965,0.0,/prevalence/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,all,2,5-9,0,161690,0.0,/prevalence/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,all,3,10-14,4,160656,2.4897918534010555,/prevalence/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,all,4,15-19,3,180095,1.6657875010411172,/prevalence/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,all,5,20-24,19,190290,9.984760103000683,/prevalence/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,all,6,25-29,64,207752,30.80596095344449,/prevalence/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,all,7,30-34,205,209813,97.70605253249322,/prevalence/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,all,8,35-39,325,188693,172.2374438903404,/prevalence/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,all,9,40-44,485,170042,285.223650627492,/prevalence/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,all,10,45-49,905,184393,490.7995422819738,/prevalence/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,all,11,50-54,1335,196199,680.4316026075567,/prevalence/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,all,12,55-59,1756,204593,858.2893842897851,/prevalence/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,all,13,60-64,1910,188720,1012.0813904196693,/prevalence/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,all,14,65-69,1982,161281,1228.9110310575952,/prevalence/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,all,15,70-74,2388,141385,1689.005198571277,/prevalence/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,all,16,75-79,3118,133892,2328.7425686374095,/prevalence/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,all,17,80-84,2472,86176,2868.5480876346082,/prevalence/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,all,18,85+,1663,55364,3003.756953977314,/prevalence/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,1,1,0-4,0,155965,0.0,/prevalence/population/1/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,1,2,5-9,0,161690,0.0,/prevalence/population/1/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,1,3,10-14,0,160656,0.0,/prevalence/population/1/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,1,4,15-19,0,180095,0.0,/prevalence/population/1/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,1,5,20-24,9,190290,4.7296232066845345,/prevalence/population/1/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,1,6,25-29,14,207752,6.738803958565983,/prevalence/population/1/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,1,7,30-34,26,209813,12.391987150462555,/prevalence/population/1/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,1,8,35-39,24,188693,12.719072779594368,/prevalence/population/1/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,1,9,40-44,35,170042,20.58315004528293,/prevalence/population/1/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,1,10,45-49,65,184393,35.25079585450641,/prevalence/population/1/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,1,11,50-54,108,196199,55.04615212106076,/prevalence/population/1/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,1,12,55-59,134,204593,65.49588695605422,/prevalence/population/1/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,1,13,60-64,165,188720,87.4311148791861,/prevalence/population/1/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,1,14,65-69,151,161281,93.62541154878753,/prevalence/population/1/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,1,15,70-74,201,141385,142.165010432507,/prevalence/population/1/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,1,16,75-79,258,133892,192.69261793086966,/prevalence/population/1/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,1,17,80-84,190,86176,220.47901968065355,/prevalence/population/1/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,1,18,85+,118,55364,213.13488909760855,/prevalence/population/1/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,3,1,0-4,0,155965,0.0,/prevalence/population/3/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,3,2,5-9,0,161690,0.0,/prevalence/population/3/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,3,3,10-14,0,160656,0.0,/prevalence/population/3/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,3,4,15-19,1,180095,0.5552625003470391,/prevalence/population/3/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,3,5,20-24,12,190290,6.306164275579379,/prevalence/population/3/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,3,6,25-29,32,207752,15.402980476722245,/prevalence/population/3/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,3,7,30-34,68,209813,32.40981254736361,/prevalence/population/3/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,3,8,35-39,67,188693,35.507411509700944,/prevalence/population/3/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,3,9,40-44,112,170042,65.86608014490538,/prevalence/population/3/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,3,10,45-49,209,184393,113.34486667064368,/prevalence/population/3/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,3,11,50-54,325,196199,165.6481429568958,/prevalence/population/3/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,3,12,55-59,394,204593,192.57745866183106,/prevalence/population/3/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,3,13,60-64,460,188720,243.7473505722764,/prevalence/population/3/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,3,14,65-69,454,161281,281.496270484434,/prevalence/population/3/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,3,15,70-74,552,141385,390.4233122325565,/prevalence/population/3/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,3,16,75-79,713,133892,532.5187464523646,/prevalence/population/3/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,3,17,80-84,514,86176,596.4537690308207,/prevalence/population/3/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,3,18,85+,318,55364,574.3804638393179,/prevalence/population/3/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,5,1,0-4,0,155965,0.0,/prevalence/population/5/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,5,2,5-9,0,161690,0.0,/prevalence/population/5/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,5,3,10-14,1,160656,0.6224479633502639,/prevalence/population/5/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,5,4,15-19,1,180095,0.5552625003470391,/prevalence/population/5/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,5,5,20-24,15,190290,7.882705344474224,/prevalence/population/5/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,5,6,25-29,39,207752,18.772382456005236,/prevalence/population/5/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,5,7,30-34,96,209813,45.75502947863097,/prevalence/population/5/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,5,8,35-39,118,188693,62.53544116633898,/prevalence/population/5/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,5,9,40-44,171,170042,100.56339022123946,/prevalence/population/5/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,5,10,45-49,321,184393,174.08469952763934,/prevalence/population/5/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,5,11,50-54,496,196199,252.80455048190868,/prevalence/population/5/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,5,12,55-59,636,204593,310.8610754033618,/prevalence/population/5/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,5,13,60-64,704,188720,373.03942348452733,/prevalence/population/5/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,5,14,65-69,686,161281,425.3445849170082,/prevalence/population/5/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,5,15,70-74,866,141385,612.5119354952789,/prevalence/population/5/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,5,16,75-79,1060,133892,791.682848863263,/prevalence/population/5/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,5,17,80-84,793,86176,920.2098031934645,/prevalence/population/5/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,5,18,85+,487,55364,879.6329744960624,/prevalence/population/5/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,10,1,0-4,0,155965,0.0,/prevalence/population/10/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,10,2,5-9,0,161690,0.0,/prevalence/population/10/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,10,3,10-14,3,160656,1.8673438900507917,/prevalence/population/10/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,10,4,15-19,2,180095,1.1105250006940781,/prevalence/population/10/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,10,5,20-24,19,190290,9.984760103000683,/prevalence/population/10/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,10,6,25-29,53,207752,25.51118641457122,/prevalence/population/10/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,10,7,30-34,154,209813,73.39869312197051,/prevalence/population/10/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,10,8,35-39,211,188693,111.82184818726715,/prevalence/population/10/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,10,9,40-44,318,170042,187.01262041142778,/prevalence/population/10/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,10,10,45-49,566,184393,306.95308390231736,/prevalence/population/10/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,10,11,50-54,861,196199,438.8401571873455,/prevalence/population/10/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,10,12,55-59,1119,204593,546.9395336106319,/prevalence/population/10/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,10,13,60-64,1167,188720,618.3764306909708,/prevalence/population/10/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,10,14,65-69,1182,161281,732.8823606004427,/prevalence/population/10/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,10,15,70-74,1411,141385,997.9842274640167,/prevalence/population/10/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,10,16,75-79,1781,133892,1330.1765602127086,/prevalence/population/10/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,10,17,80-84,1405,86176,1630.3843297437802,/prevalence/population/10/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,10,18,85+,862,55364,1556.9684271367676,/prevalence/population/10/1/(208)/(290)/
+160,Lung,F,incidence,,1,0-4,0,148426,,/data/population/0/2/(208)/(160)/
+160,Lung,F,incidence,,2,5-9,0,151767,,/data/population/0/2/(208)/(160)/
+160,Lung,F,incidence,,3,10-14,0,154437,,/data/population/0/2/(208)/(160)/
+160,Lung,F,incidence,,4,15-19,0,170452,,/data/population/0/2/(208)/(160)/
+160,Lung,F,incidence,,5,20-24,0,183685,,/data/population/0/2/(208)/(160)/
+160,Lung,F,incidence,,6,25-29,1,200180,,/data/population/0/2/(208)/(160)/
+160,Lung,F,incidence,,7,30-34,5,200449,,/data/population/0/2/(208)/(160)/
+160,Lung,F,incidence,,8,35-39,3,178542,,/data/population/0/2/(208)/(160)/
+160,Lung,F,incidence,,9,40-44,13,168489,,/data/population/0/2/(208)/(160)/
+160,Lung,F,incidence,,10,45-49,22,187277,,/data/population/0/2/(208)/(160)/
+160,Lung,F,incidence,,11,50-54,68,196486,,/data/population/0/2/(208)/(160)/
+160,Lung,F,incidence,,12,55-59,174,206094,,/data/population/0/2/(208)/(160)/
+160,Lung,F,incidence,,13,60-64,308,188200,,/data/population/0/2/(208)/(160)/
+160,Lung,F,incidence,,14,65-69,438,167671,,/data/population/0/2/(208)/(160)/
+160,Lung,F,incidence,,15,70-74,568,154009,,/data/population/0/2/(208)/(160)/
+160,Lung,F,incidence,,16,75-79,634,153199,,/data/population/0/2/(208)/(160)/
+160,Lung,F,incidence,,17,80-84,353,103483,,/data/population/0/2/(208)/(160)/
+160,Lung,F,incidence,,18,85+,207,89952,,/data/population/0/2/(208)/(160)/
+130,Pancreas,F,incidence,,1,0-4,0,148426,,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,incidence,,2,5-9,0,151767,,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,incidence,,3,10-14,0,154437,,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,incidence,,4,15-19,0,170452,,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,incidence,,5,20-24,0,183685,,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,incidence,,6,25-29,0,200180,,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,incidence,,7,30-34,3,200449,,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,incidence,,8,35-39,3,178542,,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,incidence,,9,40-44,2,168489,,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,incidence,,10,45-49,9,187277,,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,incidence,,11,50-54,14,196486,,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,incidence,,12,55-59,33,206094,,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,incidence,,13,60-64,46,188200,,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,incidence,,14,65-69,69,167671,,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,incidence,,15,70-74,95,154009,,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,incidence,,16,75-79,118,153199,,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,incidence,,17,80-84,110,103483,,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,incidence,,18,85+,83,89952,,/data/population/0/2/(208)/(130)/
+520,Colorectal,F,incidence,,1,0-4,0,148426,,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,incidence,,2,5-9,0,151767,,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,incidence,,3,10-14,3,154437,,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,incidence,,4,15-19,3,170452,,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,incidence,,5,20-24,6,183685,,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,incidence,,6,25-29,11,200180,,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,incidence,,7,30-34,16,200449,,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,incidence,,8,35-39,15,178542,,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,incidence,,9,40-44,31,168489,,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,incidence,,10,45-49,47,187277,,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,incidence,,11,50-54,81,196486,,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,incidence,,12,55-59,99,206094,,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,incidence,,13,60-64,169,188200,,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,incidence,,14,65-69,241,167671,,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,incidence,,15,70-74,335,154009,,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,incidence,,16,75-79,386,153199,,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,incidence,,17,80-84,392,103483,,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,incidence,,18,85+,322,89952,,/data/population/0/2/(208)/(520)/
+290,Melanoma of skin,F,incidence,,1,0-4,0,148426,,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,incidence,,2,5-9,0,151767,,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,incidence,,3,10-14,0,154437,,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,incidence,,4,15-19,1,170452,,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,incidence,,5,20-24,7,183685,,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,incidence,,6,25-29,15,200180,,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,incidence,,7,30-34,47,200449,,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,incidence,,8,35-39,51,178542,,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,incidence,,9,40-44,63,168489,,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,incidence,,10,45-49,134,187277,,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,incidence,,11,50-54,141,196486,,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,incidence,,12,55-59,142,206094,,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,incidence,,13,60-64,146,188200,,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,incidence,,14,65-69,134,167671,,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,incidence,,15,70-74,166,154009,,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,incidence,,16,75-79,188,153199,,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,incidence,,17,80-84,146,103483,,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,incidence,,18,85+,111,89952,,/data/population/0/2/(208)/(290)/
+160,Lung,F,prevalence,all,1,0-4,0,148461.599338,0.0,/prevalence/population/0/2/(208)/(160)/
+160,Lung,F,prevalence,all,2,5-9,0,151803.400662,0.0,/prevalence/population/0/2/(208)/(160)/
+160,Lung,F,prevalence,all,3,10-14,0,152860,0.0,/prevalence/population/0/2/(208)/(160)/
+160,Lung,F,prevalence,all,4,15-19,0,170541,0.0,/prevalence/population/0/2/(208)/(160)/
+160,Lung,F,prevalence,all,5,20-24,2,183835,1.0879321130361466,/prevalence/population/0/2/(208)/(160)/
+160,Lung,F,prevalence,all,6,25-29,12,199610,6.011722859576174,/prevalence/population/0/2/(208)/(160)/
+160,Lung,F,prevalence,all,7,30-34,20,202459,9.878543310003506,/prevalence/population/0/2/(208)/(160)/
+160,Lung,F,prevalence,all,8,35-39,22,181628,12.112669852665888,/prevalence/population/0/2/(208)/(160)/
+160,Lung,F,prevalence,all,9,40-44,51,168062,30.3459437588509,/prevalence/population/0/2/(208)/(160)/
+160,Lung,F,prevalence,all,10,45-49,80,185150,43.20820955981637,/prevalence/population/0/2/(208)/(160)/
+160,Lung,F,prevalence,all,11,50-54,195,197589,98.68970438637778,/prevalence/population/0/2/(208)/(160)/
+160,Lung,F,prevalence,all,12,55-59,558,203989,273.54416169499336,/prevalence/population/0/2/(208)/(160)/
+160,Lung,F,prevalence,all,13,60-64,1036,191034,542.3118397772124,/prevalence/population/0/2/(208)/(160)/
+160,Lung,F,prevalence,all,14,65-69,1570,168420,932.1933262082888,/prevalence/population/0/2/(208)/(160)/
+160,Lung,F,prevalence,all,15,70-74,2054,153949,1334.2080818972518,/prevalence/population/0/2/(208)/(160)/
+160,Lung,F,prevalence,all,16,75-79,2334,152150,1534.012487676635,/prevalence/population/0/2/(208)/(160)/
+160,Lung,F,prevalence,all,17,80-84,1609,107196,1500.9888428672712,/prevalence/population/0/2/(208)/(160)/
+160,Lung,F,prevalence,all,18,85+,868,91675,946.8230160894465,/prevalence/population/0/2/(208)/(160)/
+160,Lung,F,prevalence,1,1,0-4,0,148461.599338,0.0,/prevalence/population/1/2/(208)/(160)/
+160,Lung,F,prevalence,1,2,5-9,0,151803.400662,0.0,/prevalence/population/1/2/(208)/(160)/
+160,Lung,F,prevalence,1,3,10-14,0,152860,0.0,/prevalence/population/1/2/(208)/(160)/
+160,Lung,F,prevalence,1,4,15-19,0,170541,0.0,/prevalence/population/1/2/(208)/(160)/
+160,Lung,F,prevalence,1,5,20-24,0,183835,0.0,/prevalence/population/1/2/(208)/(160)/
+160,Lung,F,prevalence,1,6,25-29,1,199610,0.5009769049646812,/prevalence/population/1/2/(208)/(160)/
+160,Lung,F,prevalence,1,7,30-34,5,202459,2.4696358275008765,/prevalence/population/1/2/(208)/(160)/
+160,Lung,F,prevalence,1,8,35-39,3,181628,1.651727707181712,/prevalence/population/1/2/(208)/(160)/
+160,Lung,F,prevalence,1,9,40-44,10,168062,5.950185050755079,/prevalence/population/1/2/(208)/(160)/
+160,Lung,F,prevalence,1,10,45-49,15,185150,8.101539292465569,/prevalence/population/1/2/(208)/(160)/
+160,Lung,F,prevalence,1,11,50-54,51,197589,25.811153454898804,/prevalence/population/1/2/(208)/(160)/
+160,Lung,F,prevalence,1,12,55-59,145,203989,71.08226423973842,/prevalence/population/1/2/(208)/(160)/
+160,Lung,F,prevalence,1,13,60-64,230,191034,120.39741616675566,/prevalence/population/1/2/(208)/(160)/
+160,Lung,F,prevalence,1,14,65-69,335,168420,198.90749317183233,/prevalence/population/1/2/(208)/(160)/
+160,Lung,F,prevalence,1,15,70-74,407,153949,264.3732664713639,/prevalence/population/1/2/(208)/(160)/
+160,Lung,F,prevalence,1,16,75-79,453,152150,297.73250082155766,/prevalence/population/1/2/(208)/(160)/
+160,Lung,F,prevalence,1,17,80-84,261,107196,243.4792342997873,/prevalence/population/1/2/(208)/(160)/
+160,Lung,F,prevalence,1,18,85+,121,91675,131.98800109080992,/prevalence/population/1/2/(208)/(160)/
+160,Lung,F,prevalence,3,1,0-4,0,148461.599338,0.0,/prevalence/population/3/2/(208)/(160)/
+160,Lung,F,prevalence,3,2,5-9,0,151803.400662,0.0,/prevalence/population/3/2/(208)/(160)/
+160,Lung,F,prevalence,3,3,10-14,0,152860,0.0,/prevalence/population/3/2/(208)/(160)/
+160,Lung,F,prevalence,3,4,15-19,0,170541,0.0,/prevalence/population/3/2/(208)/(160)/
+160,Lung,F,prevalence,3,5,20-24,1,183835,0.5439660565180733,/prevalence/population/3/2/(208)/(160)/
+160,Lung,F,prevalence,3,6,25-29,3,199610,1.5029307148940434,/prevalence/population/3/2/(208)/(160)/
+160,Lung,F,prevalence,3,7,30-34,11,202459,5.433198820501929,/prevalence/population/3/2/(208)/(160)/
+160,Lung,F,prevalence,3,8,35-39,7,181628,3.8540313167573284,/prevalence/population/3/2/(208)/(160)/
+160,Lung,F,prevalence,3,9,40-44,22,168062,13.090407111661174,/prevalence/population/3/2/(208)/(160)/
+160,Lung,F,prevalence,3,10,45-49,40,185150,21.604104779908184,/prevalence/population/3/2/(208)/(160)/
+160,Lung,F,prevalence,3,11,50-54,110,197589,55.671115294879776,/prevalence/population/3/2/(208)/(160)/
+160,Lung,F,prevalence,3,12,55-59,298,203989,146.0863085754624,/prevalence/population/3/2/(208)/(160)/
+160,Lung,F,prevalence,3,13,60-64,488,191034,255.45190908424678,/prevalence/population/3/2/(208)/(160)/
+160,Lung,F,prevalence,3,14,65-69,773,168420,458.9716185726161,/prevalence/population/3/2/(208)/(160)/
+160,Lung,F,prevalence,3,15,70-74,955,153949,620.3353058480405,/prevalence/population/3/2/(208)/(160)/
+160,Lung,F,prevalence,3,16,75-79,1040,152150,683.5359842260926,/prevalence/population/3/2/(208)/(160)/
+160,Lung,F,prevalence,3,17,80-84,615,107196,573.7154371431769,/prevalence/population/3/2/(208)/(160)/
+160,Lung,F,prevalence,3,18,85+,277,91675,302.1543496045814,/prevalence/population/3/2/(208)/(160)/
+160,Lung,F,prevalence,5,1,0-4,0,148461.599338,0.0,/prevalence/population/5/2/(208)/(160)/
+160,Lung,F,prevalence,5,2,5-9,0,151803.400662,0.0,/prevalence/population/5/2/(208)/(160)/
+160,Lung,F,prevalence,5,3,10-14,0,152860,0.0,/prevalence/population/5/2/(208)/(160)/
+160,Lung,F,prevalence,5,4,15-19,0,170541,0.0,/prevalence/population/5/2/(208)/(160)/
+160,Lung,F,prevalence,5,5,20-24,2,183835,1.0879321130361466,/prevalence/population/5/2/(208)/(160)/
+160,Lung,F,prevalence,5,6,25-29,5,199610,2.5048845248234057,/prevalence/population/5/2/(208)/(160)/
+160,Lung,F,prevalence,5,7,30-34,13,202459,6.42105315150228,/prevalence/population/5/2/(208)/(160)/
+160,Lung,F,prevalence,5,8,35-39,11,181628,6.056334926332944,/prevalence/population/5/2/(208)/(160)/
+160,Lung,F,prevalence,5,9,40-44,32,168062,19.04059216241625,/prevalence/population/5/2/(208)/(160)/
+160,Lung,F,prevalence,5,10,45-49,54,185150,29.165541452876045,/prevalence/population/5/2/(208)/(160)/
+160,Lung,F,prevalence,5,11,50-54,141,197589,71.36024778707316,/prevalence/population/5/2/(208)/(160)/
+160,Lung,F,prevalence,5,12,55-59,393,203989,192.65744721529103,/prevalence/population/5/2/(208)/(160)/
+160,Lung,F,prevalence,5,13,60-64,672,191034,351.7698420176513,/prevalence/population/5/2/(208)/(160)/
+160,Lung,F,prevalence,5,14,65-69,1038,168420,616.3163519771998,/prevalence/population/5/2/(208)/(160)/
+160,Lung,F,prevalence,5,15,70-74,1302,153949,845.7346264022501,/prevalence/population/5/2/(208)/(160)/
+160,Lung,F,prevalence,5,16,75-79,1436,152150,943.805455142951,/prevalence/population/5/2/(208)/(160)/
+160,Lung,F,prevalence,5,17,80-84,895,107196,834.9192134034852,/prevalence/population/5/2/(208)/(160)/
+160,Lung,F,prevalence,5,18,85+,415,91675,452.68611944368695,/prevalence/population/5/2/(208)/(160)/
+160,Lung,F,prevalence,10,1,0-4,0,148461.599338,0.0,/prevalence/population/10/2/(208)/(160)/
+160,Lung,F,prevalence,10,2,5-9,0,151803.400662,0.0,/prevalence/population/10/2/(208)/(160)/
+160,Lung,F,prevalence,10,3,10-14,0,152860,0.0,/prevalence/population/10/2/(208)/(160)/
+160,Lung,F,prevalence,10,4,15-19,0,170541,0.0,/prevalence/population/10/2/(208)/(160)/
+160,Lung,F,prevalence,10,5,20-24,2,183835,1.0879321130361466,/prevalence/population/10/2/(208)/(160)/
+160,Lung,F,prevalence,10,6,25-29,10,199610,5.0097690496468115,/prevalence/population/10/2/(208)/(160)/
+160,Lung,F,prevalence,10,7,30-34,16,202459,7.9028346480028056,/prevalence/population/10/2/(208)/(160)/
+160,Lung,F,prevalence,10,8,35-39,16,181628,8.809214438302464,/prevalence/population/10/2/(208)/(160)/
+160,Lung,F,prevalence,10,9,40-44,41,168062,24.395758708095823,/prevalence/population/10/2/(208)/(160)/
+160,Lung,F,prevalence,10,10,45-49,69,185150,37.267080745341616,/prevalence/population/10/2/(208)/(160)/
+160,Lung,F,prevalence,10,11,50-54,177,197589,89.5798855199429,/prevalence/population/10/2/(208)/(160)/
+160,Lung,F,prevalence,10,12,55-59,504,203989,247.07214604709077,/prevalence/population/10/2/(208)/(160)/
+160,Lung,F,prevalence,10,13,60-64,907,191034,474.7845933184669,/prevalence/population/10/2/(208)/(160)/
+160,Lung,F,prevalence,10,14,65-69,1385,168420,822.3488896805605,/prevalence/population/10/2/(208)/(160)/
+160,Lung,F,prevalence,10,15,70-74,1791,153949,1163.3722856270583,/prevalence/population/10/2/(208)/(160)/
+160,Lung,F,prevalence,10,16,75-79,1977,152150,1299.375616168255,/prevalence/population/10/2/(208)/(160)/
+160,Lung,F,prevalence,10,17,80-84,1320,107196,1231.389230941453,/prevalence/population/10/2/(208)/(160)/
+160,Lung,F,prevalence,10,18,85+,652,91675,711.2080719934552,/prevalence/population/10/2/(208)/(160)/
+130,Pancreas,F,prevalence,all,1,0-4,0,148461.599338,0.0,/prevalence/population/0/2/(208)/(130)/
+130,Pancreas,F,prevalence,all,2,5-9,0,151803.400662,0.0,/prevalence/population/0/2/(208)/(130)/
+130,Pancreas,F,prevalence,all,3,10-14,0,152860,0.0,/prevalence/population/0/2/(208)/(130)/
+130,Pancreas,F,prevalence,all,4,15-19,1,170541,0.5863692601779045,/prevalence/population/0/2/(208)/(130)/
+130,Pancreas,F,prevalence,all,5,20-24,2,183835,1.0879321130361466,/prevalence/population/0/2/(208)/(130)/
+130,Pancreas,F,prevalence,all,6,25-29,4,199610,2.0039076198587247,/prevalence/population/0/2/(208)/(130)/
+130,Pancreas,F,prevalence,all,7,30-34,9,202459,4.445344489501578,/prevalence/population/0/2/(208)/(130)/
+130,Pancreas,F,prevalence,all,8,35-39,8,181628,4.404607219151232,/prevalence/population/0/2/(208)/(130)/
+130,Pancreas,F,prevalence,all,9,40-44,12,168062,7.140222060906094,/prevalence/population/0/2/(208)/(130)/
+130,Pancreas,F,prevalence,all,10,45-49,25,185150,13.502565487442615,/prevalence/population/0/2/(208)/(130)/
+130,Pancreas,F,prevalence,all,11,50-54,49,197589,24.798951358628262,/prevalence/population/0/2/(208)/(130)/
+130,Pancreas,F,prevalence,all,12,55-59,78,203989,38.237355935859284,/prevalence/population/0/2/(208)/(130)/
+130,Pancreas,F,prevalence,all,13,60-64,110,191034,57.581372949317924,/prevalence/population/0/2/(208)/(130)/
+130,Pancreas,F,prevalence,all,14,65-69,131,168420,77.78173613585085,/prevalence/population/0/2/(208)/(130)/
+130,Pancreas,F,prevalence,all,15,70-74,177,153949,114.97314045560543,/prevalence/population/0/2/(208)/(130)/
+130,Pancreas,F,prevalence,all,16,75-79,191,152150,125.53401248767663,/prevalence/population/0/2/(208)/(130)/
+130,Pancreas,F,prevalence,all,17,80-84,134,107196,125.0046643531475,/prevalence/population/0/2/(208)/(130)/
+130,Pancreas,F,prevalence,all,18,85+,49,91675,53.44968639214617,/prevalence/population/0/2/(208)/(130)/
+130,Pancreas,F,prevalence,1,1,0-4,0,148461.599338,0.0,/prevalence/population/1/2/(208)/(130)/
+130,Pancreas,F,prevalence,1,2,5-9,0,151803.400662,0.0,/prevalence/population/1/2/(208)/(130)/
+130,Pancreas,F,prevalence,1,3,10-14,0,152860,0.0,/prevalence/population/1/2/(208)/(130)/
+130,Pancreas,F,prevalence,1,4,15-19,0,170541,0.0,/prevalence/population/1/2/(208)/(130)/
+130,Pancreas,F,prevalence,1,5,20-24,0,183835,0.0,/prevalence/population/1/2/(208)/(130)/
+130,Pancreas,F,prevalence,1,6,25-29,0,199610,0.0,/prevalence/population/1/2/(208)/(130)/
+130,Pancreas,F,prevalence,1,7,30-34,3,202459,1.481781496500526,/prevalence/population/1/2/(208)/(130)/
+130,Pancreas,F,prevalence,1,8,35-39,1,181628,0.550575902393904,/prevalence/population/1/2/(208)/(130)/
+130,Pancreas,F,prevalence,1,9,40-44,2,168062,1.1900370101510156,/prevalence/population/1/2/(208)/(130)/
+130,Pancreas,F,prevalence,1,10,45-49,6,185150,3.2406157169862273,/prevalence/population/1/2/(208)/(130)/
+130,Pancreas,F,prevalence,1,11,50-54,11,197589,5.567111529487978,/prevalence/population/1/2/(208)/(130)/
+130,Pancreas,F,prevalence,1,12,55-59,25,203989,12.2555627999549,/prevalence/population/1/2/(208)/(130)/
+130,Pancreas,F,prevalence,1,13,60-64,27,191034,14.13360972392349,/prevalence/population/1/2/(208)/(130)/
+130,Pancreas,F,prevalence,1,14,65-69,42,168420,24.93765586034913,/prevalence/population/1/2/(208)/(130)/
+130,Pancreas,F,prevalence,1,15,70-74,58,153949,37.67481438658257,/prevalence/population/1/2/(208)/(130)/
+130,Pancreas,F,prevalence,1,16,75-79,57,152150,37.46302990469931,/prevalence/population/1/2/(208)/(130)/
+130,Pancreas,F,prevalence,1,17,80-84,50,107196,46.64353147505504,/prevalence/population/1/2/(208)/(130)/
+130,Pancreas,F,prevalence,1,18,85+,15,91675,16.36214889555495,/prevalence/population/1/2/(208)/(130)/
+130,Pancreas,F,prevalence,3,1,0-4,0,148461.599338,0.0,/prevalence/population/3/2/(208)/(130)/
+130,Pancreas,F,prevalence,3,2,5-9,0,151803.400662,0.0,/prevalence/population/3/2/(208)/(130)/
+130,Pancreas,F,prevalence,3,3,10-14,0,152860,0.0,/prevalence/population/3/2/(208)/(130)/
+130,Pancreas,F,prevalence,3,4,15-19,1,170541,0.5863692601779045,/prevalence/population/3/2/(208)/(130)/
+130,Pancreas,F,prevalence,3,5,20-24,2,183835,1.0879321130361466,/prevalence/population/3/2/(208)/(130)/
+130,Pancreas,F,prevalence,3,6,25-29,1,199610,0.5009769049646812,/prevalence/population/3/2/(208)/(130)/
+130,Pancreas,F,prevalence,3,7,30-34,4,202459,1.9757086620007014,/prevalence/population/3/2/(208)/(130)/
+130,Pancreas,F,prevalence,3,8,35-39,3,181628,1.651727707181712,/prevalence/population/3/2/(208)/(130)/
+130,Pancreas,F,prevalence,3,9,40-44,5,168062,2.9750925253775393,/prevalence/population/3/2/(208)/(130)/
+130,Pancreas,F,prevalence,3,10,45-49,15,185150,8.101539292465569,/prevalence/population/3/2/(208)/(130)/
+130,Pancreas,F,prevalence,3,11,50-54,24,197589,12.146425155246497,/prevalence/population/3/2/(208)/(130)/
+130,Pancreas,F,prevalence,3,12,55-59,47,203989,23.04045806391521,/prevalence/population/3/2/(208)/(130)/
+130,Pancreas,F,prevalence,3,13,60-64,53,191034,27.743752421034998,/prevalence/population/3/2/(208)/(130)/
+130,Pancreas,F,prevalence,3,14,65-69,73,168420,43.34402090013062,/prevalence/population/3/2/(208)/(130)/
+130,Pancreas,F,prevalence,3,15,70-74,111,153949,72.10179994673561,/prevalence/population/3/2/(208)/(130)/
+130,Pancreas,F,prevalence,3,16,75-79,100,152150,65.72461386789352,/prevalence/population/3/2/(208)/(130)/
+130,Pancreas,F,prevalence,3,17,80-84,78,107196,72.76390910108586,/prevalence/population/3/2/(208)/(130)/
+130,Pancreas,F,prevalence,3,18,85+,22,91675,23.997818380147258,/prevalence/population/3/2/(208)/(130)/
+130,Pancreas,F,prevalence,5,1,0-4,0,148461.599338,0.0,/prevalence/population/5/2/(208)/(130)/
+130,Pancreas,F,prevalence,5,2,5-9,0,151803.400662,0.0,/prevalence/population/5/2/(208)/(130)/
+130,Pancreas,F,prevalence,5,3,10-14,0,152860,0.0,/prevalence/population/5/2/(208)/(130)/
+130,Pancreas,F,prevalence,5,4,15-19,1,170541,0.5863692601779045,/prevalence/population/5/2/(208)/(130)/
+130,Pancreas,F,prevalence,5,5,20-24,2,183835,1.0879321130361466,/prevalence/population/5/2/(208)/(130)/
+130,Pancreas,F,prevalence,5,6,25-29,2,199610,1.0019538099293623,/prevalence/population/5/2/(208)/(130)/
+130,Pancreas,F,prevalence,5,7,30-34,5,202459,2.4696358275008765,/prevalence/population/5/2/(208)/(130)/
+130,Pancreas,F,prevalence,5,8,35-39,4,181628,2.202303609575616,/prevalence/population/5/2/(208)/(130)/
+130,Pancreas,F,prevalence,5,9,40-44,6,168062,3.570111030453047,/prevalence/population/5/2/(208)/(130)/
+130,Pancreas,F,prevalence,5,10,45-49,17,185150,9.181744531460978,/prevalence/population/5/2/(208)/(130)/
+130,Pancreas,F,prevalence,5,11,50-54,28,197589,14.17082934778758,/prevalence/population/5/2/(208)/(130)/
+130,Pancreas,F,prevalence,5,12,55-59,51,203989,25.001348111907994,/prevalence/population/5/2/(208)/(130)/
+130,Pancreas,F,prevalence,5,13,60-64,74,191034,38.736559984086604,/prevalence/population/5/2/(208)/(130)/
+130,Pancreas,F,prevalence,5,14,65-69,86,168420,51.06281914261964,/prevalence/population/5/2/(208)/(130)/
+130,Pancreas,F,prevalence,5,15,70-74,133,153949,86.39224678302554,/prevalence/population/5/2/(208)/(130)/
+130,Pancreas,F,prevalence,5,16,75-79,120,152150,78.86953664147224,/prevalence/population/5/2/(208)/(130)/
+130,Pancreas,F,prevalence,5,17,80-84,94,107196,87.68983917310348,/prevalence/population/5/2/(208)/(130)/
+130,Pancreas,F,prevalence,5,18,85+,28,91675,30.542677938369238,/prevalence/population/5/2/(208)/(130)/
+130,Pancreas,F,prevalence,10,1,0-4,0,148461.599338,0.0,/prevalence/population/10/2/(208)/(130)/
+130,Pancreas,F,prevalence,10,2,5-9,0,151803.400662,0.0,/prevalence/population/10/2/(208)/(130)/
+130,Pancreas,F,prevalence,10,3,10-14,0,152860,0.0,/prevalence/population/10/2/(208)/(130)/
+130,Pancreas,F,prevalence,10,4,15-19,1,170541,0.5863692601779045,/prevalence/population/10/2/(208)/(130)/
+130,Pancreas,F,prevalence,10,5,20-24,2,183835,1.0879321130361466,/prevalence/population/10/2/(208)/(130)/
+130,Pancreas,F,prevalence,10,6,25-29,3,199610,1.5029307148940434,/prevalence/population/10/2/(208)/(130)/
+130,Pancreas,F,prevalence,10,7,30-34,6,202459,2.963562993001052,/prevalence/population/10/2/(208)/(130)/
+130,Pancreas,F,prevalence,10,8,35-39,6,181628,3.303455414363424,/prevalence/population/10/2/(208)/(130)/
+130,Pancreas,F,prevalence,10,9,40-44,10,168062,5.950185050755079,/prevalence/population/10/2/(208)/(130)/
+130,Pancreas,F,prevalence,10,10,45-49,24,185150,12.96246286794491,/prevalence/population/10/2/(208)/(130)/
+130,Pancreas,F,prevalence,10,11,50-54,35,197589,17.713536684734475,/prevalence/population/10/2/(208)/(130)/
+130,Pancreas,F,prevalence,10,12,55-59,67,203989,32.84490830387913,/prevalence/population/10/2/(208)/(130)/
+130,Pancreas,F,prevalence,10,13,60-64,92,191034,48.15896646670226,/prevalence/population/10/2/(208)/(130)/
+130,Pancreas,F,prevalence,10,14,65-69,111,168420,65.90666191663698,/prevalence/population/10/2/(208)/(130)/
+130,Pancreas,F,prevalence,10,15,70-74,158,153949,102.63139091517321,/prevalence/population/10/2/(208)/(130)/
+130,Pancreas,F,prevalence,10,16,75-79,164,152150,107.78836674334538,/prevalence/population/10/2/(208)/(130)/
+130,Pancreas,F,prevalence,10,17,80-84,116,107196,108.21299302212769,/prevalence/population/10/2/(208)/(130)/
+130,Pancreas,F,prevalence,10,18,85+,38,91675,41.45077720207254,/prevalence/population/10/2/(208)/(130)/
+520,Colorectal,F,prevalence,all,1,0-4,0,148461.599338,0.0,/prevalence/population/0/2/(208)/(520)/
+520,Colorectal,F,prevalence,all,2,5-9,0,151803.400662,0.0,/prevalence/population/0/2/(208)/(520)/
+520,Colorectal,F,prevalence,all,3,10-14,4,152860,2.6167735182519953,/prevalence/population/0/2/(208)/(520)/
+520,Colorectal,F,prevalence,all,4,15-19,15,170541,8.795538902668566,/prevalence/population/0/2/(208)/(520)/
+520,Colorectal,F,prevalence,all,5,20-24,37,183835,20.12674409116871,/prevalence/population/0/2/(208)/(520)/
+520,Colorectal,F,prevalence,all,6,25-29,49,199610,24.547868343269375,/prevalence/population/0/2/(208)/(520)/
+520,Colorectal,F,prevalence,all,7,30-34,87,202459,42.971663398515254,/prevalence/population/0/2/(208)/(520)/
+520,Colorectal,F,prevalence,all,8,35-39,96,181628,52.855286629814785,/prevalence/population/0/2/(208)/(520)/
+520,Colorectal,F,prevalence,all,9,40-44,158,168062,94.01292380193024,/prevalence/population/0/2/(208)/(520)/
+520,Colorectal,F,prevalence,all,10,45-49,288,185150,155.54955441533892,/prevalence/population/0/2/(208)/(520)/
+520,Colorectal,F,prevalence,all,11,50-54,525,197589,265.7030502710171,/prevalence/population/0/2/(208)/(520)/
+520,Colorectal,F,prevalence,all,12,55-59,959,203989,470.12338900627,/prevalence/population/0/2/(208)/(520)/
+520,Colorectal,F,prevalence,all,13,60-64,1431,191034,749.081315367945,/prevalence/population/0/2/(208)/(520)/
+520,Colorectal,F,prevalence,all,14,65-69,2142,168420,1271.8204488778056,/prevalence/population/0/2/(208)/(520)/
+520,Colorectal,F,prevalence,all,15,70-74,2997,153949,1946.7485985618614,/prevalence/population/0/2/(208)/(520)/
+520,Colorectal,F,prevalence,all,16,75-79,4175,152150,2744.0026289845546,/prevalence/population/0/2/(208)/(520)/
+520,Colorectal,F,prevalence,all,17,80-84,3944,107196,3679.2417627523414,/prevalence/population/0/2/(208)/(520)/
+520,Colorectal,F,prevalence,all,18,85+,4569,91675,4983.910553586038,/prevalence/population/0/2/(208)/(520)/
+520,Colorectal,F,prevalence,1,1,0-4,0,148461.599338,0.0,/prevalence/population/1/2/(208)/(520)/
+520,Colorectal,F,prevalence,1,2,5-9,0,151803.400662,0.0,/prevalence/population/1/2/(208)/(520)/
+520,Colorectal,F,prevalence,1,3,10-14,3,152860,1.9625801386889965,/prevalence/population/1/2/(208)/(520)/
+520,Colorectal,F,prevalence,1,4,15-19,2,170541,1.172738520355809,/prevalence/population/1/2/(208)/(520)/
+520,Colorectal,F,prevalence,1,5,20-24,7,183835,3.8077623956265128,/prevalence/population/1/2/(208)/(520)/
+520,Colorectal,F,prevalence,1,6,25-29,10,199610,5.0097690496468115,/prevalence/population/1/2/(208)/(520)/
+520,Colorectal,F,prevalence,1,7,30-34,12,202459,5.927125986002104,/prevalence/population/1/2/(208)/(520)/
+520,Colorectal,F,prevalence,1,8,35-39,15,181628,8.25863853590856,/prevalence/population/1/2/(208)/(520)/
+520,Colorectal,F,prevalence,1,9,40-44,31,168062,18.445573657340745,/prevalence/population/1/2/(208)/(520)/
+520,Colorectal,F,prevalence,1,10,45-49,41,185150,22.144207399405886,/prevalence/population/1/2/(208)/(520)/
+520,Colorectal,F,prevalence,1,11,50-54,74,197589,37.451477562010034,/prevalence/population/1/2/(208)/(520)/
+520,Colorectal,F,prevalence,1,12,55-59,89,203989,43.629803567839446,/prevalence/population/1/2/(208)/(520)/
+520,Colorectal,F,prevalence,1,13,60-64,151,191034,79.04352104860915,/prevalence/population/1/2/(208)/(520)/
+520,Colorectal,F,prevalence,1,14,65-69,209,168420,124.09452559078494,/prevalence/population/1/2/(208)/(520)/
+520,Colorectal,F,prevalence,1,15,70-74,294,153949,190.97233499405647,/prevalence/population/1/2/(208)/(520)/
+520,Colorectal,F,prevalence,1,16,75-79,330,152150,216.89122576404864,/prevalence/population/1/2/(208)/(520)/
+520,Colorectal,F,prevalence,1,17,80-84,313,107196,291.98850703384454,/prevalence/population/1/2/(208)/(520)/
+520,Colorectal,F,prevalence,1,18,85+,256,91675,279.24734115080446,/prevalence/population/1/2/(208)/(520)/
+520,Colorectal,F,prevalence,3,1,0-4,0,148461.599338,0.0,/prevalence/population/3/2/(208)/(520)/
+520,Colorectal,F,prevalence,3,2,5-9,0,151803.400662,0.0,/prevalence/population/3/2/(208)/(520)/
+520,Colorectal,F,prevalence,3,3,10-14,3,152860,1.9625801386889965,/prevalence/population/3/2/(208)/(520)/
+520,Colorectal,F,prevalence,3,4,15-19,9,170541,5.27732334160114,/prevalence/population/3/2/(208)/(520)/
+520,Colorectal,F,prevalence,3,5,20-24,16,183835,8.703456904289173,/prevalence/population/3/2/(208)/(520)/
+520,Colorectal,F,prevalence,3,6,25-29,20,199610,10.019538099293623,/prevalence/population/3/2/(208)/(520)/
+520,Colorectal,F,prevalence,3,7,30-34,30,202459,14.81781496500526,/prevalence/population/3/2/(208)/(520)/
+520,Colorectal,F,prevalence,3,8,35-39,41,181628,22.573611998150064,/prevalence/population/3/2/(208)/(520)/
+520,Colorectal,F,prevalence,3,9,40-44,70,168062,41.65129535528555,/prevalence/population/3/2/(208)/(520)/
+520,Colorectal,F,prevalence,3,10,45-49,124,185150,66.97272481771536,/prevalence/population/3/2/(208)/(520)/
+520,Colorectal,F,prevalence,3,11,50-54,226,197589,114.37883687857118,/prevalence/population/3/2/(208)/(520)/
+520,Colorectal,F,prevalence,3,12,55-59,295,203989,144.61564103946782,/prevalence/population/3/2/(208)/(520)/
+520,Colorectal,F,prevalence,3,13,60-64,355,191034,185.8307945182533,/prevalence/population/3/2/(208)/(520)/
+520,Colorectal,F,prevalence,3,14,65-69,560,168420,332.50207813798835,/prevalence/population/3/2/(208)/(520)/
+520,Colorectal,F,prevalence,3,15,70-74,724,153949,470.28561406699623,/prevalence/population/3/2/(208)/(520)/
+520,Colorectal,F,prevalence,3,16,75-79,833,152150,547.4860335195531,/prevalence/population/3/2/(208)/(520)/
+520,Colorectal,F,prevalence,3,17,80-84,820,107196,764.9539161909026,/prevalence/population/3/2/(208)/(520)/
+520,Colorectal,F,prevalence,3,18,85+,727,91675,793.0188164712299,/prevalence/population/3/2/(208)/(520)/
+520,Colorectal,F,prevalence,5,1,0-4,0,148461.599338,0.0,/prevalence/population/5/2/(208)/(520)/
+520,Colorectal,F,prevalence,5,2,5-9,0,151803.400662,0.0,/prevalence/population/5/2/(208)/(520)/
+520,Colorectal,F,prevalence,5,3,10-14,3,152860,1.9625801386889965,/prevalence/population/5/2/(208)/(520)/
+520,Colorectal,F,prevalence,5,4,15-19,13,170541,7.622800382312757,/prevalence/population/5/2/(208)/(520)/
+520,Colorectal,F,prevalence,5,5,20-24,27,183835,14.687083525987978,/prevalence/population/5/2/(208)/(520)/
+520,Colorectal,F,prevalence,5,6,25-29,29,199610,14.528330243975752,/prevalence/population/5/2/(208)/(520)/
+520,Colorectal,F,prevalence,5,7,30-34,57,202459,28.153848433509996,/prevalence/population/5/2/(208)/(520)/
+520,Colorectal,F,prevalence,5,8,35-39,58,181628,31.933402338846435,/prevalence/population/5/2/(208)/(520)/
+520,Colorectal,F,prevalence,5,9,40-44,98,168062,58.31181349739977,/prevalence/population/5/2/(208)/(520)/
+520,Colorectal,F,prevalence,5,10,45-49,168,185150,90.73724007561437,/prevalence/population/5/2/(208)/(520)/
+520,Colorectal,F,prevalence,5,11,50-54,325,197589,164.482840643963,/prevalence/population/5/2/(208)/(520)/
+520,Colorectal,F,prevalence,5,12,55-59,443,203989,217.16857281520083,/prevalence/population/5/2/(208)/(520)/
+520,Colorectal,F,prevalence,5,13,60-64,570,191034,298.37620528282923,/prevalence/population/5/2/(208)/(520)/
+520,Colorectal,F,prevalence,5,14,65-69,867,168420,514.7844674029212,/prevalence/population/5/2/(208)/(520)/
+520,Colorectal,F,prevalence,5,15,70-74,1117,153949,725.5649598243574,/prevalence/population/5/2/(208)/(520)/
+520,Colorectal,F,prevalence,5,16,75-79,1314,152150,863.6214262241209,/prevalence/population/5/2/(208)/(520)/
+520,Colorectal,F,prevalence,5,17,80-84,1208,107196,1126.9077204373298,/prevalence/population/5/2/(208)/(520)/
+520,Colorectal,F,prevalence,5,18,85+,1156,91675,1260.9762748841015,/prevalence/population/5/2/(208)/(520)/
+520,Colorectal,F,prevalence,10,1,0-4,0,148461.599338,0.0,/prevalence/population/10/2/(208)/(520)/
+520,Colorectal,F,prevalence,10,2,5-9,0,151803.400662,0.0,/prevalence/population/10/2/(208)/(520)/
+520,Colorectal,F,prevalence,10,3,10-14,4,152860,2.6167735182519953,/prevalence/population/10/2/(208)/(520)/
+520,Colorectal,F,prevalence,10,4,15-19,15,170541,8.795538902668566,/prevalence/population/10/2/(208)/(520)/
+520,Colorectal,F,prevalence,10,5,20-24,34,183835,18.49484592161449,/prevalence/population/10/2/(208)/(520)/
+520,Colorectal,F,prevalence,10,6,25-29,45,199610,22.543960723410652,/prevalence/population/10/2/(208)/(520)/
+520,Colorectal,F,prevalence,10,7,30-34,76,202459,37.538464578013325,/prevalence/population/10/2/(208)/(520)/
+520,Colorectal,F,prevalence,10,8,35-39,81,181628,44.596648093906225,/prevalence/population/10/2/(208)/(520)/
+520,Colorectal,F,prevalence,10,9,40-44,137,168062,81.51753519534458,/prevalence/population/10/2/(208)/(520)/
+520,Colorectal,F,prevalence,10,10,45-49,246,185150,132.86524439643532,/prevalence/population/10/2/(208)/(520)/
+520,Colorectal,F,prevalence,10,11,50-54,445,197589,225.21496642019545,/prevalence/population/10/2/(208)/(520)/
+520,Colorectal,F,prevalence,10,12,55-59,782,203989,383.35400438258927,/prevalence/population/10/2/(208)/(520)/
+520,Colorectal,F,prevalence,10,13,60-64,1027,191034,537.6006365359046,/prevalence/population/10/2/(208)/(520)/
+520,Colorectal,F,prevalence,10,14,65-69,1530,168420,908.4431777698611,/prevalence/population/10/2/(208)/(520)/
+520,Colorectal,F,prevalence,10,15,70-74,2007,153949,1303.6784909288142,/prevalence/population/10/2/(208)/(520)/
+520,Colorectal,F,prevalence,10,16,75-79,2579,152150,1695.037791652974,/prevalence/population/10/2/(208)/(520)/
+520,Colorectal,F,prevalence,10,17,80-84,2314,107196,2158.6626366655473,/prevalence/population/10/2/(208)/(520)/
+520,Colorectal,F,prevalence,10,18,85+,2137,91675,2331.0608126533953,/prevalence/population/10/2/(208)/(520)/
+290,Melanoma of skin,F,prevalence,all,1,0-4,0,148461.599338,0.0,/prevalence/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,all,2,5-9,0,151803.400662,0.0,/prevalence/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,all,3,10-14,2,152860,1.3083867591259977,/prevalence/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,all,4,15-19,10,170541,5.863692601779045,/prevalence/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,all,5,20-24,42,183835,22.84657437375908,/prevalence/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,all,6,25-29,147,199610,73.64360502980813,/prevalence/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,all,7,30-34,467,202459,230.6639862885819,/prevalence/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,all,8,35-39,809,181628,445.41590503666833,/prevalence/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,all,9,40-44,1054,168062,627.1495043495853,/prevalence/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,all,10,45-49,1684,185150,909.5328112341344,/prevalence/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,all,11,50-54,2364,197589,1196.42287779178,/prevalence/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,all,12,55-59,2827,203989,1385.8590414189,/prevalence/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,all,13,60-64,2644,191034,1384.046818890878,/prevalence/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,all,14,65-69,2440,168420,1448.759054744092,/prevalence/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,all,15,70-74,2692,153949,1748.6310401496598,/prevalence/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,all,16,75-79,3314,152150,2178.1137035819916,/prevalence/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,all,17,80-84,2473,107196,2306.989066756222,/prevalence/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,all,18,85+,2268,91675,2473.9569130079085,/prevalence/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,1,1,0-4,0,148461.599338,0.0,/prevalence/population/1/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,1,2,5-9,0,151803.400662,0.0,/prevalence/population/1/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,1,3,10-14,0,152860,0.0,/prevalence/population/1/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,1,4,15-19,1,170541,0.5863692601779045,/prevalence/population/1/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,1,5,20-24,7,183835,3.8077623956265128,/prevalence/population/1/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,1,6,25-29,14,199610,7.013676669505536,/prevalence/population/1/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,1,7,30-34,43,202459,21.23886811650754,/prevalence/population/1/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,1,8,35-39,53,181628,29.180522826876913,/prevalence/population/1/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,1,9,40-44,57,168062,33.91605478930395,/prevalence/population/1/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,1,10,45-49,127,185150,68.59303267620848,/prevalence/population/1/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,1,11,50-54,150,197589,75.91515722029061,/prevalence/population/1/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,1,12,55-59,137,203989,67.16048414375285,/prevalence/population/1/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,1,13,60-64,141,191034,73.80885078048934,/prevalence/population/1/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,1,14,65-69,130,168420,77.18798242489015,/prevalence/population/1/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,1,15,70-74,167,153949,108.47748280274637,/prevalence/population/1/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,1,16,75-79,186,152150,122.24778179428196,/prevalence/population/1/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,1,17,80-84,147,107196,137.1319825366618,/prevalence/population/1/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,1,18,85+,113,91675,123.26152167984729,/prevalence/population/1/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,3,1,0-4,0,148461.599338,0.0,/prevalence/population/3/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,3,2,5-9,0,151803.400662,0.0,/prevalence/population/3/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,3,3,10-14,0,152860,0.0,/prevalence/population/3/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,3,4,15-19,2,170541,1.172738520355809,/prevalence/population/3/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,3,5,20-24,22,183835,11.967253243397613,/prevalence/population/3/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,3,6,25-29,50,199610,25.048845248234056,/prevalence/population/3/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,3,7,30-34,125,202459,61.74089568752192,/prevalence/population/3/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,3,8,35-39,175,181628,96.3507829189332,/prevalence/population/3/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,3,9,40-44,193,168062,114.83857147957302,/prevalence/population/3/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,3,10,45-49,329,185150,177.6937618147448,/prevalence/population/3/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,3,11,50-54,442,197589,223.69666327578963,/prevalence/population/3/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,3,12,55-59,446,203989,218.6392403511954,/prevalence/population/3/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,3,13,60-64,453,191034,237.13056314582744,/prevalence/population/3/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,3,14,65-69,397,168420,235.7202232513953,/prevalence/population/3/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,3,15,70-74,484,153949,314.3898303983787,/prevalence/population/3/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,3,16,75-79,551,152150,362.1426224120933,/prevalence/population/3/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,3,17,80-84,398,107196,371.2825105414381,/prevalence/population/3/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,3,18,85+,343,91675,374.14780474502317,/prevalence/population/3/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,5,1,0-4,0,148461.599338,0.0,/prevalence/population/5/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,5,2,5-9,0,151803.400662,0.0,/prevalence/population/5/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,5,3,10-14,0,152860,0.0,/prevalence/population/5/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,5,4,15-19,2,170541,1.172738520355809,/prevalence/population/5/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,5,5,20-24,29,183835,15.775015639024124,/prevalence/population/5/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,5,6,25-29,81,199610,40.57912930213917,/prevalence/population/5/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,5,7,30-34,202,202459,99.77328743103541,/prevalence/population/5/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,5,8,35-39,298,181628,164.0716189133834,/prevalence/population/5/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,5,9,40-44,332,168062,197.5461436850686,/prevalence/population/5/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,5,10,45-49,533,185150,287.87469619227653,/prevalence/population/5/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,5,11,50-54,695,197589,351.7402284540131,/prevalence/population/5/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,5,12,55-59,728,203989,356.8819887346867,/prevalence/population/5/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,5,13,60-64,721,191034,377.41972633143837,/prevalence/population/5/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,5,14,65-69,638,168420,378.81486759292244,/prevalence/population/5/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,5,15,70-74,754,153949,489.7725870255734,/prevalence/population/5/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,5,16,75-79,859,152150,564.5744331252054,/prevalence/population/5/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,5,17,80-84,621,107196,579.3126609201836,/prevalence/population/5/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,5,18,85+,536,91675,584.6741205344969,/prevalence/population/5/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,10,1,0-4,0,148461.599338,0.0,/prevalence/population/10/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,10,2,5-9,0,151803.400662,0.0,/prevalence/population/10/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,10,3,10-14,1,152860,0.6541933795629988,/prevalence/population/10/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,10,4,15-19,4,170541,2.345477040711618,/prevalence/population/10/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,10,5,20-24,40,183835,21.75864226072293,/prevalence/population/10/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,10,6,25-29,131,199610,65.62797455037322,/prevalence/population/10/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,10,7,30-34,360,202459,177.8137795800631,/prevalence/population/10/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,10,8,35-39,514,181628,282.99601383046667,/prevalence/population/10/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,10,9,40-44,629,168062,374.26663969249444,/prevalence/population/10/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,10,10,45-49,966,185150,521.7391304347826,/prevalence/population/10/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,10,11,50-54,1281,197589,648.3154426612817,/prevalence/population/10/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,10,12,55-59,1406,203989,689.2528518694636,/prevalence/population/10/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,10,13,60-64,1314,191034,687.8356732309431,/prevalence/population/10/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,10,14,65-69,1173,168420,696.4731029568935,/prevalence/population/10/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,10,15,70-74,1296,153949,841.8372318105346,/prevalence/population/10/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,10,16,75-79,1534,152150,1008.2155767334867,/prevalence/population/10/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,10,17,80-84,1124,107196,1048.5465875592372,/prevalence/population/10/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,10,18,85+,972,91675,1060.2672484319608,/prevalence/population/10/2/(208)/(290)/

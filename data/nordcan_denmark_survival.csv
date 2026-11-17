@@ -1,0 +1,9 @@
+cancer_code,cancer,sex,period,years_after_diagnosis,relative_survival_percent,low_ci,up_ci,endpoint
+160,Lung,M,2020-2024,1,56.0,54.8,57.2,/survival/population/1/1/(208)/(160)/
+160,Lung,F,2020-2024,1,64.3,63.3,65.4,/survival/population/1/2/(208)/(160)/
+130,Pancreas,M,2020-2024,1,41.0,39.1,43.0,/survival/population/1/1/(208)/(130)/
+130,Pancreas,F,2020-2024,1,43.3,41.1,45.5,/survival/population/1/2/(208)/(130)/
+520,Colorectal,M,2020-2024,1,87.7,87.0,88.3,/survival/population/1/1/(208)/(520)/
+520,Colorectal,F,2020-2024,1,87.9,87.3,88.6,/survival/population/1/2/(208)/(520)/
+290,Melanoma of skin,M,2020-2024,1,98.8,98.4,99.1,/survival/population/1/1/(208)/(290)/
+290,Melanoma of skin,F,2020-2024,1,99.4,99.2,99.7,/survival/population/1/2/(208)/(290)/

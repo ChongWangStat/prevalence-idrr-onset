@@ -1,0 +1,121 @@
+cancer_code,cancer,sex,measure,window_years,year,count,population,endpoint
+160,Lung,M,incidence,,2015,2341,2822535.0,/data/population/0/1/(208)/(160)/
+160,Lung,M,incidence,,2016,2378,2848030.0,/data/population/0/1/(208)/(160)/
+160,Lung,M,incidence,,2017,2446,2866952.0,/data/population/0/1/(208)/(160)/
+160,Lung,M,incidence,,2018,2416,2881620.0,/data/population/0/1/(208)/(160)/
+160,Lung,M,incidence,,2019,2421,2893956.0,/data/population/0/1/(208)/(160)/
+160,Lung,M,incidence,,2020,2495,2897656.0,/data/population/0/1/(208)/(160)/
+160,Lung,M,incidence,,2021,2514,2910605.0,/data/population/0/1/(208)/(160)/
+160,Lung,M,incidence,,2022,2514,2937921.0,/data/population/0/1/(208)/(160)/
+160,Lung,M,incidence,,2023,2501,2955326.0,/data/population/0/1/(208)/(160)/
+160,Lung,M,incidence,,2024,2409,2969622.0,/data/population/0/1/(208)/(160)/
+160,Lung,M,prevalence,all,2024,7227,2976999.0,/prevalence/population/0/1/(208)/(160)/
+160,Lung,M,prevalence,1,2024,1592,2976999.0,/prevalence/population/1/1/(208)/(160)/
+160,Lung,M,prevalence,3,2024,3480,2976999.0,/prevalence/population/3/1/(208)/(160)/
+160,Lung,M,prevalence,5,2024,4668,2976999.0,/prevalence/population/5/1/(208)/(160)/
+160,Lung,M,prevalence,10,2024,6260,2976999.0,/prevalence/population/10/1/(208)/(160)/
+130,Pancreas,M,incidence,,2015,509,2822535.0,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,incidence,,2016,512,2848030.0,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,incidence,,2017,573,2866952.0,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,incidence,,2018,562,2881620.0,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,incidence,,2019,581,2893956.0,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,incidence,,2020,593,2897656.0,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,incidence,,2021,617,2910605.0,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,incidence,,2022,592,2937921.0,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,incidence,,2023,653,2955326.0,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,incidence,,2024,630,2969622.0,/data/population/0/1/(208)/(130)/
+130,Pancreas,M,prevalence,all,2024,1081,2976999.0,/prevalence/population/0/1/(208)/(130)/
+130,Pancreas,M,prevalence,1,2024,332,2976999.0,/prevalence/population/1/1/(208)/(130)/
+130,Pancreas,M,prevalence,3,2024,604,2976999.0,/prevalence/population/3/1/(208)/(130)/
+130,Pancreas,M,prevalence,5,2024,761,2976999.0,/prevalence/population/5/1/(208)/(130)/
+130,Pancreas,M,prevalence,10,2024,950,2976999.0,/prevalence/population/10/1/(208)/(130)/
+520,Colorectal,M,incidence,,2015,3052,2822535.0,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,incidence,,2016,2894,2848030.0,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,incidence,,2017,2894,2866952.0,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,incidence,,2018,2644,2881620.0,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,incidence,,2019,2518,2893956.0,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,incidence,,2020,2384,2897656.0,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,incidence,,2021,2525,2910605.0,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,incidence,,2022,2321,2937921.0,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,incidence,,2023,2302,2955326.0,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,incidence,,2024,2245,2969622.0,/data/population/0/1/(208)/(520)/
+520,Colorectal,M,prevalence,all,2024,22365,2976999.0,/prevalence/population/0/1/(208)/(520)/
+520,Colorectal,M,prevalence,1,2024,1922,2976999.0,/prevalence/population/1/1/(208)/(520)/
+520,Colorectal,M,prevalence,3,2024,5183,2976999.0,/prevalence/population/3/1/(208)/(520)/
+520,Colorectal,M,prevalence,5,2024,8009,2976999.0,/prevalence/population/5/1/(208)/(520)/
+520,Colorectal,M,prevalence,10,2024,14883,2976999.0,/prevalence/population/10/1/(208)/(520)/
+290,Melanoma of skin,M,incidence,,2015,1044,2822535.0,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,incidence,,2016,1225,2848030.0,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,incidence,,2017,1265,2866952.0,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,incidence,,2018,1360,2881620.0,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,incidence,,2019,1329,2893956.0,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,incidence,,2020,1316,2897656.0,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,incidence,,2021,1401,2910605.0,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,incidence,,2022,1478,2937921.0,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,incidence,,2023,1517,2955326.0,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,incidence,,2024,1539,2969622.0,/data/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,all,2024,18634,2976999.0,/prevalence/population/0/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,1,2024,1498,2976999.0,/prevalence/population/1/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,3,2024,4231,2976999.0,/prevalence/population/3/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,5,2024,6490,2976999.0,/prevalence/population/5/1/(208)/(290)/
+290,Melanoma of skin,M,prevalence,10,2024,11114,2976999.0,/prevalence/population/10/1/(208)/(290)/
+160,Lung,F,incidence,,2015,2373,2855813.0,/data/population/0/2/(208)/(160)/
+160,Lung,F,incidence,,2016,2402,2876426.0,/data/population/0/2/(208)/(160)/
+160,Lung,F,incidence,,2017,2446,2893742.0,/data/population/0/2/(208)/(160)/
+160,Lung,F,incidence,,2018,2520,2908337.0,/data/population/0/2/(208)/(160)/
+160,Lung,F,incidence,,2019,2537,2920505.0,/data/population/0/2/(208)/(160)/
+160,Lung,F,incidence,,2020,2625,2927681.0,/data/population/0/2/(208)/(160)/
+160,Lung,F,incidence,,2021,2703,2939584.0,/data/population/0/2/(208)/(160)/
+160,Lung,F,incidence,,2022,2711,2972656.0,/data/population/0/2/(208)/(160)/
+160,Lung,F,incidence,,2023,2784,2988819.0,/data/population/0/2/(208)/(160)/
+160,Lung,F,incidence,,2024,2794,3002798.0,/data/population/0/2/(208)/(160)/
+160,Lung,F,prevalence,all,2024,10411,3010412.0,/prevalence/population/0/2/(208)/(160)/
+160,Lung,F,prevalence,1,2024,2037,3010412.0,/prevalence/population/1/2/(208)/(160)/
+160,Lung,F,prevalence,3,2024,4640,3010412.0,/prevalence/population/3/2/(208)/(160)/
+160,Lung,F,prevalence,5,2024,6409,3010412.0,/prevalence/population/5/2/(208)/(160)/
+160,Lung,F,prevalence,10,2024,8867,3010412.0,/prevalence/population/10/2/(208)/(160)/
+130,Pancreas,F,incidence,,2015,463,2855813.0,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,incidence,,2016,445,2876426.0,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,incidence,,2017,545,2893742.0,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,incidence,,2018,568,2908337.0,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,incidence,,2019,519,2920505.0,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,incidence,,2020,536,2927681.0,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,incidence,,2021,507,2939584.0,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,incidence,,2022,586,2972656.0,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,incidence,,2023,570,2988819.0,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,incidence,,2024,585,3002798.0,/data/population/0/2/(208)/(130)/
+130,Pancreas,F,prevalence,all,2024,980,3010412.0,/prevalence/population/0/2/(208)/(130)/
+130,Pancreas,F,prevalence,1,2024,297,3010412.0,/prevalence/population/1/2/(208)/(130)/
+130,Pancreas,F,prevalence,3,2024,539,3010412.0,/prevalence/population/3/2/(208)/(130)/
+130,Pancreas,F,prevalence,5,2024,651,3010412.0,/prevalence/population/5/2/(208)/(130)/
+130,Pancreas,F,prevalence,10,2024,833,3010412.0,/prevalence/population/10/2/(208)/(130)/
+520,Colorectal,F,incidence,,2015,2536,2855813.0,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,incidence,,2016,2345,2876426.0,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,incidence,,2017,2411,2893742.0,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,incidence,,2018,2175,2908337.0,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,incidence,,2019,2245,2920505.0,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,incidence,,2020,2082,2927681.0,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,incidence,,2021,2176,2939584.0,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,incidence,,2022,2146,2972656.0,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,incidence,,2023,2033,2988819.0,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,incidence,,2024,2157,3002798.0,/data/population/0/2/(208)/(520)/
+520,Colorectal,F,prevalence,all,2024,21476,3010412.0,/prevalence/population/0/2/(208)/(520)/
+520,Colorectal,F,prevalence,1,2024,1837,3010412.0,/prevalence/population/1/2/(208)/(520)/
+520,Colorectal,F,prevalence,3,2024,4853,3010412.0,/prevalence/population/3/2/(208)/(520)/
+520,Colorectal,F,prevalence,5,2024,7453,3010412.0,/prevalence/population/5/2/(208)/(520)/
+520,Colorectal,F,prevalence,10,2024,13459,3010412.0,/prevalence/population/10/2/(208)/(520)/
+290,Melanoma of skin,F,incidence,,2015,1272,2855813.0,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,incidence,,2016,1397,2876426.0,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,incidence,,2017,1254,2893742.0,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,incidence,,2018,1446,2908337.0,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,incidence,,2019,1420,2920505.0,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,incidence,,2020,1395,2927681.0,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,incidence,,2021,1510,2939584.0,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,incidence,,2022,1565,2972656.0,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,incidence,,2023,1539,2988819.0,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,incidence,,2024,1492,3002798.0,/data/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,all,2024,25237,3010412.0,/prevalence/population/0/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,1,2024,1473,3010412.0,/prevalence/population/1/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,3,2024,4410,3010412.0,/prevalence/population/3/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,5,2024,7029,3010412.0,/prevalence/population/5/2/(208)/(290)/
+290,Melanoma of skin,F,prevalence,10,2024,12745,3010412.0,/prevalence/population/10/2/(208)/(290)/

@@ -1,0 +1,55 @@
+\section{Simulation algorithms}\label{supp:algorithm}
+
+\begin{algorithm}[!ht]
+\caption{Sampling a prevalence survey of one exposure group from the stationary distribution of background result B1 (comparison of the estimators, Aim 4).}
+\label{alg:sim}
+\begin{algorithmic}[1]
+\Require expected group population size $n$; incidence density $I$; emigration rate $\gamma$; duration distribution $F$ with mean $\bar D$
+\Ensure healthy count $H$; prevalent count $P$; times since onset $A_1,\dots,A_P$
+\State $\bar H\gets n/(1+I\bar D)$; $\bar P\gets I\bar D\bar H$
+\State Draw independently $H\sim\mathrm{Poisson}(\bar H)$ and $P\sim\mathrm{Poisson}(\bar P)$
+\For{$k=1,\dots,P$}
+  \State Draw the backward time $A_k$ from the density $g(a)=S(a)/\bar D$, $a\ge0$
+\EndFor
+\State \Return $H$, $P$ and the case-specific times since onset $A_k$
+\end{algorithmic}
+\end{algorithm}
+
+Algorithm~\ref{alg:sim} was used for the comparison of the estimators (scenario sets A to D). In scenario set C, the backward times of the exposed cases were drawn from the density proportional to $S_0(a)e^{-\beta a}$. The algorithm samples the stationary distribution described in background result B1, so this algorithm alone cannot verify that sampling identity. Aims 1 to 3, the checks of the two propositions and the scenarios with a recent start, immigration of prevalent cases, growth and changing incidence rates used simulations of individual histories (Algorithm~\ref{alg:orig} and its variants), in which no count or time since onset is drawn from a derived distribution.
+
+\begin{algorithm}[!ht]
+\caption{Simulation of the individual histories of one dynamic population (Aims 1 to 3).}
+\label{alg:orig}
+\begin{algorithmic}[1]
+\Require $\alpha$, $\gamma$, $N_0$, $t_{\max}$, $I$, $\bar D$, $dstr$
+\Statex \Comment{$\alpha$, per capita rate of immigration; $\gamma$, per capita rate of emigration; $N_0$, size of the initial population; $t_{\max}$, maximum follow-up time; $I$, disease incidence density rate; $\bar D$, average duration of the disease; $dstr$, distribution used to generate the duration time}
+\Ensure the population dynamic until time $t_{\max}$: a record of the disease time and status of the individuals who have been part of the population at any point during the study period
+\State \textbf{Rates calculation:}
+\State $prv\gets I\bar D/(1+I\bar D)$ \Comment{prevalence calculated from the equation $P/H=I\times\bar D$}
+\State $H\gets N_0(1-prv)$ \Comment{expected size of the healthy pool}
+\State $a\gets H\times\alpha$ \Comment{rate of immigration to the healthy population}
+\State \textbf{Simulating the dynamics of the population:}
+\State the $N_0$ subjects of the initial population enter at $t_0=0$
+\State $t\gets 0$
+\Repeat
+  \State generate a waiting time $t_{next}$ from $\exp(a)$;\quad $t\gets t+t_{next}$
+  \State add a new subject with $t_0=t$ \Comment{immigration}
+\Until{$t\ge t_{\max}$}
+\For{each subject}
+  \State generate a potential emigration time $t_{emig}\gets t_0+\exp(\gamma)$ \Comment{emigration}
+  \State generate a potential disease incidence time $td_{start}\gets t_0+\exp(I)$
+  \If{$td_{start}<t_{emig}$}
+     \State $D\gets 1$
+     \State generate the duration time $du$ from $dstr$: $du\gets\bar D$ (constant), $du\sim\mathrm{unif}(\bar D-3,\bar D+3)$ (uniform) or $du\sim\exp(1/\bar D)$ (exponential)
+     \State $td_{end}\gets td_{start}+du$;\quad $t_{end}\gets td_{end}$
+  \Else
+     \State $D\gets 0$;\quad $t_{end}\gets t_{emig}$ \Comment{the subject leaves the population before the disease starts}
+  \EndIf
+\EndFor
+\State \textbf{Prevalence study on day $t$:} $H(t)\gets$ number of subjects with $t_0\le t<\min(td_{start},t_{emig})$;\quad $P(t)\gets$ number of subjects with $D=1$ and $td_{start}\le t<td_{end}$
+\end{algorithmic}
+\end{algorithm}
+
+Algorithm~\ref{alg:orig} is the algorithm of the original study with two changes. In the original algorithm emigration events occurred at the constant total rate $H\times\gamma$ and removed a healthy subject chosen at random; here each healthy subject emigrates at the per capita rate $\gamma$, which is the model of the main text. The original algorithm set the end of the disease to the larger of $td_{start}+du$ and $t_{\max}$; the end of the disease is $td_{start}+du$. For Aims 1 to 3 each replicate is one run of the algorithm with a prevalence study on day 2000 (script \path{python_original_reproduction.py}). In the variants used for Aim 4 there is no initial cohort: healthy individuals enter as a Poisson process over a period before the survey that is long relative to the durations and to the time spent at risk, and the incidence or entry rates may depend on time (script \path{python_individual_histories.py}).
+
+

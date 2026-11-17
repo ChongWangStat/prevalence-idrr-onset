@@ -1,0 +1,44 @@
+records in the 22 module states: 162026
+
+=== Ages 20-79 (primary): men against women
+  registry IDRR 2022: 1.082 (1.079, 1.085)   cases M/F 824778/779366; rates per 100,000 697/644
+  registry IDRR 2021: 1.074 (1.071, 1.077)   cases M/F 816783/776895; rates per 100,000 695/647
+  registry IDRR 2023: 1.070 (1.067, 1.074)   cases M/F 832464/795145; rates per 100,000 697/651
+  survey, unweighted: healthy M/F 50279/54720; cases M/F 4705/6440; cases with unknown age at diagnosis M/F 275/368
+  POR  weighted 0.73 (0.67, 0.79)
+  ROR primary (told since last birthday): recent M/F 232/248; weighted 0.92 (0.68, 1.25) -> registry IDRR inside; unweighted 1.02 exact (0.85, 1.22)
+  ROR S1 (one known type): recent M/F 206/221; weighted 0.91 (0.66, 1.27) -> registry IDRR inside; unweighted 1.01 exact (0.83, 1.23)
+  ROR S2 (under two years): recent M/F 616/662; weighted 1.01 (0.81, 1.26) -> registry IDRR inside; unweighted 1.01 exact (0.91, 1.13)
+
+=== Ages 20-49: men against women
+  registry IDRR 2022: 0.534 (0.529, 0.539)   cases M/F 71933/132007; rates per 100,000 109/203
+  registry IDRR 2021: 0.533 (0.528, 0.538)   cases M/F 71773/132005; rates per 100,000 109/205
+  registry IDRR 2023: 0.536 (0.532, 0.541)   cases M/F 74945/136951; rates per 100,000 112/208
+  survey, unweighted: healthy M/F 21585/21042; cases M/F 338/768; cases with unknown age at diagnosis M/F 30/35
+  POR  weighted 0.43 (0.35, 0.54)
+  ROR primary (told since last birthday): recent M/F 27/51; weighted 0.76 (0.35, 1.62) -> registry IDRR inside; unweighted 0.52 exact (0.31, 0.84)
+  ROR S1 (one known type): recent M/F 27/47; weighted 0.82 (0.37, 1.78) -> registry IDRR inside; unweighted 0.56 exact (0.34, 0.92)
+  ROR S2 (under two years): recent M/F 65/132; weighted 0.52 (0.30, 0.89) -> registry IDRR inside; unweighted 0.48 exact (0.35, 0.65)
+
+=== Ages 50-79: men against women
+  registry IDRR 2022: 1.251 (1.247, 1.255)   cases M/F 752845/647359; rates per 100,000 1446/1156
+  registry IDRR 2021: 1.241 (1.237, 1.245)   cases M/F 745010/644890; rates per 100,000 1441/1161
+  registry IDRR 2023: 1.239 (1.235, 1.243)   cases M/F 757519/658194; rates per 100,000 1446/1167
+  survey, unweighted: healthy M/F 28694/33678; cases M/F 4367/5672; cases with unknown age at diagnosis M/F 245/333
+  POR  weighted 0.85 (0.78, 0.92)
+  ROR primary (told since last birthday): recent M/F 205/197; weighted 1.04 (0.76, 1.43) -> registry IDRR inside; unweighted 1.22 exact (1.00, 1.49)
+  ROR S1 (one known type): recent M/F 179/174; weighted 1.00 (0.71, 1.41) -> registry IDRR inside; unweighted 1.21 exact (0.97, 1.50)
+  ROR S2 (under two years): recent M/F 551/530; weighted 1.27 (1.00, 1.62) -> registry IDRR inside; unweighted 1.22 exact (1.08, 1.38)
+
+all-ages crude rate ratio M/F, 2022: all states 1.073; the 22 module states 1.071
+
+=== EXPLORATORY (not in the plan): age-stratified Mantel-Haenszel, survey unweighted, registry averaged with the survey's MH weights
+  Ages 20-79 (primary)   POR                            cases M/F 4705/6440: MH 0.85 (0.81, 0.88); registry with the same weights 1.20 -> OUTSIDE
+  Ages 20-79 (primary)   ROR, told since last birthday  cases M/F 232/248: MH 1.09 (0.91, 1.30); registry with the same weights 1.22 -> inside
+  Ages 20-79 (primary)   ROR, under two years           cases M/F 616/662: MH 1.08 (0.97, 1.21); registry with the same weights 1.22 -> OUTSIDE
+  Ages 20-49             POR                            cases M/F 338/768: MH 0.45 (0.40, 0.52); registry with the same weights 0.53 -> OUTSIDE
+  Ages 20-49             ROR, told since last birthday  cases M/F 27/51: MH 0.54 (0.34, 0.87); registry with the same weights 0.53 -> inside
+  Ages 20-49             ROR, under two years           cases M/F 65/132: MH 0.51 (0.38, 0.69); registry with the same weights 0.53 -> inside
+  Ages 50-79             POR                            cases M/F 4367/5672: MH 0.91 (0.87, 0.95); registry with the same weights 1.30 -> OUTSIDE
+  Ages 50-79             ROR, told since last birthday  cases M/F 205/197: MH 1.24 (1.02, 1.51); registry with the same weights 1.31 -> inside
+  Ages 50-79             ROR, under two years           cases M/F 551/530: MH 1.24 (1.10, 1.39); registry with the same weights 1.31 -> inside

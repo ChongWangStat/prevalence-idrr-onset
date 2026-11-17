@@ -1,63 +1,147 @@
-# Prevalence-survey onset-time analysis: IDRR estimators and bounds
+# Code and data: Estimating the incidence density rate ratio from a prevalence study using the time since disease onset: identification, estimators and bounds
 
-Reproducibility code for the manuscript **Estimating the incidence density rate ratio from a prevalence study using the time since disease onset: identification, estimators and bounds** (Ying Zheng, Chong Wang and Annette O'Connor), prepared for submission to *PLOS ONE* (November 2026).
+Ying Zheng, Chong Wang, Annette O'Connor. S2 Code and Data of the article submitted to *PLOS ONE*.
 
-This repository is for the **analyses and code** and does not include the manuscript's LaTeX or a patient-level clinical dataset. Scripts reproduce simulation results, estimators, confidence intervals, sensitivity bounds, tables, numeric macros and figures from documented random seeds. Reported results and computational validation output are included in `results/` for comparison.
+This archive contains the Python code, the input data, the recorded seeds and the stored outputs
+behind every number, table and figure of the article and of S1 Appendix, including the external BRFSS--USCS comparison. It does not contain the
+manuscript.
 
-## Installation
+## Contents
 
-Python 3.11+ is required; the manuscript was calculated in Python 3.13. Install dependencies using:
+| Path | Content |
+|---|---|
+| `code/` | Python scripts: checks of the theory, simulations, the two original illustrations, numbers, tables, figures, and external survey--registry scripts |
+| `data/` | registry extract (NORDCAN, Denmark: totals, age-specific values, survival) and verified aggregates of the trial example |
+| `examples/` | example input for the tool that applies the bounds to a user's own counts |
+| `results/python/` | stored output of every simulation and analysis (CSV, JSON); `logs/` holds screen output of earlier runs |
+| `results/simultaneous_windows/` | stored output of the several-windows simulation and of the worked example |
+| `tex/` | generated LaTeX: one body per table (`tab_*_body.tex`) and the numbers quoted in the text (`numbers.tex`, `numbers_app.tex`) |
+| `figures/` | the 13 figures as PDF, and the source of Fig 1 (`fig1_model.tex`) |
+| `DATA_SOURCES.md` | the public data sources and their terms |
+| `code/brfss_uscs/`, `results/brfss_uscs/` | independent survey--registry comparison scripts, plan, expected outputs; CDC raw records are downloaded separately |
+| `STORED_OUTPUTS_SHA256.txt` | checksums of the stored outputs, used by `check_against_stored.py` |
+| `PYTHON_VALIDATION_REPORT.json` | report of `code/python_validate_outputs.py` |
 
-```sh
-python -m pip install -r requirements-python.txt
+## Requirements
+
+Python 3.11 or later. `pip install -r requirements-lock.txt` installs the versions used for the
+article (with Python 3.13.18); `requirements-python.txt` gives the minimum versions. Fig 1 is a
+TikZ drawing; recompiling it needs `pdflatex`, nothing else does.
+
+## Running
+
+```
+sh regenerate_from_stored_results.sh              # numbers, tables and figures from the stored results
+OFFLINE=1 sh reproduce_all_python.sh              # everything from the seeds, without network access
+sh reproduce_all_python.sh                        # the same, and the two public data sources are read again
+COLON_CSV=/path/to/colon.csv OFFLINE=1 sh reproduce_all_python.sh    # trial file from a local copy
 ```
 
-## Quick numerical verification
+To independently rerun the 2022 BRFSS--USCS comparison, download and extract the public CDC files
+listed in `code/brfss_uscs/README_verify.md`, then run:
 
 ```sh
-python code/python_verify_theory.py
-python code/python_verify_exact_ci.py
-python code/python_check_interval.py
-python code/python_falsify_propositions.py
+sh verify_brfss_uscs.sh /path/to/LLCP2022.ASC /path/to/BYAGE.TXT /path/to/BYAREA.TXT
 ```
 
-After the public registry extracts have been downloaded locally (see below), run `python code/python_validate_outputs.py` for the full 20-dataset audit.
+This separate check is **not** part of `reproduce_all_python.sh`, because the CDC raw ASCII
+archives are not redistributed. The three recorded BRFSS--USCS expected outputs are included.
 
-These checks use stored numerical outputs where applicable and **do not** independently prove the mathematical results. The full simulation is computationally intensive (many hours).
+`python` must be the interpreter of the environment above.
 
-## Reproducing figures, analyses and tables
+- `regenerate_from_stored_results.sh` reruns the numerical checks of the theory, the two
+  illustrations and the scripts that write the numbers, the table bodies and the figures. No
+  simulation is rerun. About two minutes.
+- `reproduce_all_python.sh` reruns every simulation from its recorded seeds first. On two cores the
+  complete run took about 2 hours 45 minutes, of which the repetition of the comparison of the estimators
+  with individual histories (`python_main_individual_check.py`) took about 2 hours.
+- With `OFFLINE=1` the registry series in `data/` are used as they are, and the trial tables are
+  rebuilt from the stored aggregate results, because the patient-level trial file is not
+  redistributed here. Without it the registry series are downloaded again and the script stops if
+  any number differs from `data/`; the trial file is downloaded, and its checksum and the
+  aggregates computed from it are compared with the recorded ones.
+  `COLON_CSV` (absolute path) reads the trial file from a local copy instead; the trial results and
+  the bootstrap are then recomputed also with `OFFLINE=1`.
 
-The NORDCAN data are **not redistributed here** while permission to deposit the curated extract is being checked. The publisher makes the underlying aggregate series publicly available. Fetch the exact selected series from the source and regenerate the analysis-input CSV files locally:
+Both scripts end with `check_against_stored.py`, which compares every output with the stored output
+of the article and stops with an error if a numerical output differs. Every replicate has its own
+seed, so the results do not depend on the number of threads.
 
-```sh
-python code/python_nordcan_application.py --download --write-extract
+## Which source files support the current v13 manuscript
+
+The published manuscript has been condensed. The additional full numerical tables and simulation grids remain in this archive as supporting reproducible outputs; **they are not necessarily numbered tables in the main text**. The complete 12-row estimator comparison table removed from the main text is retained in `documentation/archived_main_estimator_table.tex`.
+
+Main manuscript tables: original simulation summary (`tex/tab_orig_body.tex`), selected interval sensitivity scenarios (`results/python/interval_bounds_python.csv`), NORDCAN cancer registry (`results/python/nordcan_application.csv`) and BRFSS--USCS survey--registry comparison (`results/brfss_uscs/`). Main figures: the model, onset-specific odds ratio, simulation bias and precision, NORDCAN and colon-cancer trial (six TIFFs supplied separately with the manuscript).
+
+S1 Appendix retains supporting proofs, essential parameter settings, the simultaneous-window and colon-cancer calculations, and BRFSS methods. The original two simulation pseudocode algorithms moved out of S1 are in `documentation/simulation_algorithms.tex`; the executable programs remain in `code/`. The full series of generated LaTeX tables and figures are archived in `tex/` and `figures/`; their *legacy numeric labels* correspond to the earlier full-length analysis and should not be substituted for the current paper's table or figure numbers.
+
+## Simulations
+
+| Script | What it simulates | How |
+|---|---|---|
+| `python_original_reproduction.py` | Aims 1 to 3; stationarity of the simulated populations | individual histories (Algorithm S2) |
+| `python_secondary_reproduction.py` | checks of Propositions 1 and 2; recent start; immigration of prevalent cases | individual histories |
+| `python_growth_reproduction.py`, `python_changing_incidence_reproduction.py` | growth; incidence rates that change over time | individual histories |
+| `python_main_reproduction.py` | comparison of the estimators, 56 scenarios | samples the stationary law of Proposition 1 (Algorithm S1) |
+| `python_main_individual_check.py` | the same comparison repeated, and compared with the previous line | individual histories |
+| `python_interval_reproduction.py` | onset recorded in intervals; bounds | samples the stationary law |
+| `11_simultaneous_windows.py` | several windows | samples the stationary law |
+
+The individual-history kernels are in `python_individual_histories.py`.
+
+## Checks
+
+- `python_falsify_propositions.py` looks for counterexamples to each proposition among duration
+  distributions outside those of the simulation study.
+- `python_verify_theory.py`, `python_verify_exact_ci.py` and `python_check_interval.py` check
+  identities, the exact confidence limits (against SciPy) and the statements beside Proposition 7.
+- `python_validate_outputs.py` checks row counts, ranges and consistency of all outputs and writes
+  `PYTHON_VALIDATION_REPORT.json`; `python_check_targeted_bootstrap.py` checks the trial bootstrap.
+- `check_against_stored.py` compares all outputs with `STORED_OUTPUTS_SHA256.txt`.
+
+## Applying the bounds to your own counts
+
 ```
-
-Run the complete simulation and analysis sequence from the repository root:
-
-```sh
-sh reproduce_all_python.sh
-```
-
-The script regenerates numerical results, figure files and LaTeX numeric/table components. It does **not** compile manuscript PDFs, since the manuscript LaTeX is not part of this code repository. The reference NORDCAN release was version **9.6.1**, accessed 13 November 2026. If NORDCAN changes its series, the script's numerical consistency checks may stop: use the versioned source and compare against the stored published results.
-
-The colon-cancer example uses the publicly distributed `survival::colon` dataset; original patient-level data are downloaded by the Python scripts and are **not** redistributed in this repository. Using `OFFLINE=1 sh reproduce_all_python.sh` is supported only after NORDCAN extracts have been fetched and local results have been prepared.
-
-## Structure
-
-- `code/`: Python simulation, analytic, visualization and diagnostic scripts, including reusable survey interval calculations
-- `results/`: seeded simulation summaries, tables, diagnostic outputs and provenance metadata
-- `data/`: the verified **aggregate** colon-cancer analysis inputs; no patient-level data and no raw NORDCAN extracts
-- `examples/`: simulated survey example for the interval-bound calculator
-- `figures/`: generated figure outputs, for cross-checking against the manuscript
-- `tex/`: generated numeric macros and table bodies, not the manuscript source
-- `PYTHON_VALIDATION_REPORT.json`: checks of numerical output consistency
-- `DATA_SOURCES.md`: underlying public sources, retrieval notes and redistribution caveats
-
-## Example analysis on grouped survey data
-
-```sh
 python code/13_apply_to_survey.py --input examples/simulated_survey_counts.csv --delta0 0.005 --delta1 0.005 --output my_intervals.csv
 ```
 
-These code files are released as part of an academic reproducibility package. Please cite the published article when available. A formal open-source license should be agreed by the authors before public release; no license grant is asserted by this prepublication preparation archive.
+The input has one row per exposure group with the number of healthy individuals and the numbers of
+cases by interval of time since onset; `--delta0` and `--delta1` are the limits of Equation 13 per
+day. The stored result of this command is `results/simultaneous_windows/cli_application_example.csv`.
+
+## Notes
+
+- The stored results in `results/` are the output of one uninterrupted run of
+  `reproduce_all_python.sh`. The option `--resume` of the three longest simulations reads the
+  rows already written and writes them again, which cuts small values at the 16th decimal place
+  (relative differences below 1e-12). After a resumed run `check_against_stored.py` therefore
+  reports those files as different although the tables, numbers and figures are the same.
+- In `tex/numbers.tex` the macros that begin with `nRef`, and `nWordCount`, are cross-reference
+  numbers and a word count from the build of the manuscript. They are not results;
+  `python_all_numbers.py` keeps them as they are and requires the file to exist.
+- `tex/tab_por_body.tex`, `tab_orig_same_body.tex` and `tab_orig_diff_body.tex` are written by
+  `python_all_tables.py` but are not used in the article.
+- `code/python_merge_and_audit.py` compared an earlier run of the main simulation with results from
+  R scripts of an earlier version (`results/python/main_python_audit.json`, `main_audit_log.txt`).
+  Those R results are not part of this archive, so the script cannot be rerun here; no number in
+  the article comes from it.
+
+
+## External survey--registry comparison (Table 8; S1 Appendix)
+
+The 2022 BRFSS survey was compared with 2022 USCS incidence counts. This is an external **comparison**, not an independent validation of the full theoretical model. The primary recent-onset definition uses the difference of zero completed years between respondent age and age at first diagnosis; the secondary definition uses differences of zero or one year. The latter is an approximation to a recent-onset window, not an observed diagnosis date.
+
+All survey scripts, the original analysis plan, the post-analysis harmonization notice, and the results are in `code/brfss_uscs/` and `results/brfss_uscs/`. Public CDC source archives are *not* redistributed: download them from the URLs in `code/brfss_uscs/README_verify.md` and check their SHA-256 digests. After extraction, run the three commands documented in that README. Skin-only histories of non-melanoma/unknown type were excluded from eligible-cancer numerators and included in the no-eligible-cancer denominator **post hoc**, consistently for both POR and ROR; no claim of prospective registration is made.
+
+### Targeted trial-data correction in this package
+
+`code/python_colon_bounds.py` now evaluates the Kaplan--Meier excess-survival envelope at actual event times and their left limits, instead of a five-day grid. The observed maximum changes from approximately 2.53 to **2.90 per 1,000 days** (52 days after recurrence) for each analysed window; the 365-day tipping point remains 2.64 per 1,000 days. `results/python/colon_bounds.csv`, associated number macros, table and Figure 6 were updated. The original stored simulation outputs are otherwise unchanged.
+
+
+From the S2 root, run the external comparison against the downloaded public CDC files with:
+
+```sh
+sh verify_brfss_uscs.sh '/path/LLCP2022.ASC ' '/path/BYAGE.TXT' '/path/BYAREA.TXT'
+```
+
+The shell script compares all three result files against the stored outputs (including the independent jackknife cross-check). It does **not** run by default during the other paper analyses, because the raw CDC files are not redistributed.

@@ -29,7 +29,7 @@ ROOT = Path(__file__).resolve().parents[1]
 URL = 'https://raw.githubusercontent.com/vincentarelbundock/Rdatasets/master/csv/survival/colon.csv'
 T = 365; WINDOWS = (90, 180, 365); DELTAS = (0., .001, .002, .003)
 EXPOSED, UNEXPOSED = 'Lev+5FU', 'Obs'
-GRID = np.arange(0, 366, 5)
+GRID = np.arange(0, 366, 5)  # plotting grid only; envelope is evaluated at KM event times
 
 
 def B(x):
@@ -88,9 +88,15 @@ def analyse(d):
         for dl in DELTAS:
             r[f'lo_{dl:g}'] = lo * B(dl * w); r[f'hi_{dl:g}'] = hi / B(dl * w)
         r['tipping'] = optimize.brentq(lambda x: B(x) - hi, 1e-9, 60.) / w if hi < 1 else 0.
-        s1 = np.array([step(post[EXPOSED][0], post[EXPOSED][1], x) for x in range(30, w + 1, 5)])
-        s0 = np.array([step(post[UNEXPOSED][0], post[UNEXPOSED][1], x) for x in range(30, w + 1, 5)])
-        r['envelope'] = float(np.max(-np.log(s1 / s0) / np.arange(30, w + 1, 5)))
+        # The Kaplan--Meier curves jump at observed event times. The maximum of
+        # -log(S1(a)/S0(a))/a over [30,w] can occur just after a jump, or just
+        # before the next one; a five-day grid can miss it.
+        times = np.unique(np.r_[30.0, float(w), post[EXPOSED][0], post[UNEXPOSED][0]])
+        times = times[(times >= 30.0) & (times <= w)]
+        candidates = np.r_[times, np.nextafter(times[times > 30.0], -np.inf)]
+        s1 = np.array([step(post[EXPOSED][0], post[EXPOSED][1], x) for x in candidates])
+        s0 = np.array([step(post[UNEXPOSED][0], post[UNEXPOSED][1], x) for x in candidates])
+        r['envelope'] = float(np.max(-np.log(s1 / s0) / candidates))
         r['S1_w'] = step(post[EXPOSED][0], post[EXPOSED][1], w); r['S0_w'] = step(post[UNEXPOSED][0], post[UNEXPOSED][1], w)
         r['R_ratio'] = restricted_mean(post[EXPOSED][0], post[EXPOSED][1], w) / restricted_mean(post[UNEXPOSED][0], post[UNEXPOSED][1], w)
         r['ROR_corrected'] = ror / r['R_ratio']
@@ -136,8 +142,8 @@ def outputs(res, kmg):
     ax[0].axhline(1, color='gray', ls=':', lw=.8)
     ax[0].axvline(1000 * last['tipping'], color='black', ls=':', lw=1.0)
     ax[0].axvline(1000 * last['envelope'], color='#0072B2', ls='-.', lw=1.0)
-    ax[0].annotate('tipping point', (1000 * last['tipping'] + .07, .135), fontsize=7, rotation=90, ha='left', va='bottom')
-    ax[0].annotate('observed in follow-up', (1000 * last['envelope'] - .07, .135), fontsize=7, rotation=90, ha='right', va='bottom', color='#0072B2')
+    ax[0].annotate('tipping point', (1000 * last['tipping'] - .12, .135), fontsize=7, rotation=90, ha='right', va='bottom')
+    ax[0].annotate('observed in follow-up', (1000 * last['envelope'] + .12, .135), fontsize=7, rotation=90, ha='left', va='bottom', color='#0072B2')
     ax[0].set(yscale='log', ylim=(.12, 1.6), xlim=(0, 4), xlabel='Assumed limit on the excess exit hazard (per 1000 days)',
               ylabel='Combination treatment / observation', title='(A) 365-day window, snapshot at day 365')
     ax[0].set_yticks([.15, .2, .3, .5, .7, 1., 1.5]); ax[0].set_yticklabels(['0.15', '0.2', '0.3', '0.5', '0.7', '1', '1.5']); ax[0].minorticks_off()
