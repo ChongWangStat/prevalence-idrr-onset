@@ -84,9 +84,9 @@ S1 Appendix retains supporting proofs, essential parameter settings, the simulta
 | Script | What it simulates | How |
 |---|---|---|
 | `python_original_reproduction.py` | Aims 1 to 3; stationarity of the simulated populations | individual histories (Algorithm S2) |
-| `python_secondary_reproduction.py` | checks of Propositions 1 and 2; recent start; immigration of prevalent cases | individual histories |
+| `python_secondary_reproduction.py` | checks of the model and population departures; recent start; immigration of prevalent cases | individual histories |
 | `python_growth_reproduction.py`, `python_changing_incidence_reproduction.py` | growth; incidence rates that change over time | individual histories |
-| `python_main_reproduction.py` | comparison of the estimators, 56 scenarios | samples the stationary law of Proposition 1 (Algorithm S1) |
+| `python_main_reproduction.py` | comparison of the estimators, 56 scenarios | samples the stationary distribution in background result B1 (Algorithm S1) |
 | `python_main_individual_check.py` | the same comparison repeated, and compared with the previous line | individual histories |
 | `python_interval_reproduction.py` | onset recorded in intervals; bounds | samples the stationary law |
 | `11_simultaneous_windows.py` | several windows | samples the stationary law |
